@@ -1,0 +1,20 @@
+var l3D6371FE_0 = false;
+l3D6371FE_0 = instance_exists(Inter);
+if(l3D6371FE_0)
+{
+	var l7D654B4B_0 = file_exists("sayori.chr");
+	if(!l7D654B4B_0)
+	{
+		var l33789EDF_0 = file_exists("yuri.chr");
+		if(!l33789EDF_0)
+		{
+			var l17FBD05F_0 = file_exists("natsuki.chr");
+			if(!l17FBD05F_0)
+			{
+				with(Inter) {
+				request_trophy_add_achieved = gj_trophy_add_achieved("100740");//Sets the specified trophy as 
+				}
+			}
+		}
+	}
+}

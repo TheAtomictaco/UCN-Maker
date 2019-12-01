@@ -1,0 +1,2 @@
+/// @description cursor move timer
+

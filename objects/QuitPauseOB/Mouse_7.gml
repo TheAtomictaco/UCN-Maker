@@ -1,0 +1,3 @@
+Click_Script()
+FadeQuit()
+
