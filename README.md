@@ -1,6 +1,7 @@
 # UCN Maker
 [UCN Maker](https://gamejolt.com/games/ultimate-custom-night-maker/441111) lets users make and edit characters and animatronics.
-The game is still a work in progress so please forgive my spagetti code.
+The game is still a work in progress so please forgive my spagetti code.  
+Also the game has a lot of unfinished parts because I am porting it from a older project.
 
 ### Developing
 Please make sure you have gamemaker studio: 2.
