@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "13b0fd15-7c50-403e-ac4e-a7a85d611321",
+            "Value": {
+                "id": "2e11ad92-791e-4492-a59d-816198378106",
+                "resourcePath": "scripts\\@__view_set\\__view_set.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1421c32c-bfc4-4f17-9d7a-cb2518e47039",
             "Value": {
                 "id": "787e05f7-3e39-4ea3-aea4-26ebe817a1a4",
@@ -532,6 +540,14 @@
                 "id": "15036572-b35b-4565-ade9-9d60988b1fca",
                 "resourcePath": "sprites\\_1718\\_1718.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "162126d9-1a4d-4980-8b06-894e0cf83270",
+            "Value": {
+                "id": "7f2f5121-bd96-4a02-bbf0-e538cdeaae40",
+                "resourcePath": "rooms\\room_test0\\room_test0.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -3055,6 +3071,14 @@
             }
         },
         {
+            "Key": "614601e6-b2da-472f-ad46-3480fb048571",
+            "Value": {
+                "id": "9722256d-655b-4ac1-9af2-da40f63244dd",
+                "resourcePath": "notes\\compatibility_report_011219_144401441.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "6158bc53-88d9-4204-acd6-fda15a3974fb",
             "Value": {
                 "id": "975ed863-5e1e-4954-a56a-01f97aeea0c7",
@@ -4959,6 +4983,14 @@
             }
         },
         {
+            "Key": "9d6c6a53-fde6-4306-aa30-2a0f5806b908",
+            "Value": {
+                "id": "03b05491-25f5-44fa-a97f-1523b1dd7571",
+                "resourcePath": "scripts\\@__view_set_internal\\__view_set_internal.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9d7b0d37-e570-4675-bc5b-0ed92e2eb11a",
             "Value": {
                 "id": "c1e79870-493d-416f-9f56-61629b0dc93c",
@@ -5068,6 +5100,14 @@
                 "id": "802d7cb7-79da-4f96-9ee7-1c92eed68587",
                 "resourcePath": "sprites\\FreezeItemSP\\FreezeItemSP.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a107dfc2-2a69-4c7d-b49f-4d9a672554c4",
+            "Value": {
+                "id": "b740b9a6-eee6-46bc-87ed-acaf812f1577",
+                "resourcePath": "views\\a107dfc2-2a69-4c7d-b49f-4d9a672554c4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -5503,6 +5543,14 @@
             }
         },
         {
+            "Key": "af68bcae-0b31-46c5-961d-f66a81a8cde7",
+            "Value": {
+                "id": "e26a89d8-4fdd-4df9-970f-3dfbdc051ed2",
+                "resourcePath": "shaders\\shd_test\\shd_test.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "afceb7a8-5673-4f8c-a344-de55083d4236",
             "Value": {
                 "id": "595a1db1-0ae3-4351-97c7-e80ea5d2378b",
@@ -5523,6 +5571,14 @@
             "Value": {
                 "id": "47f9f212-34a4-4647-8572-04d189adcf5d",
                 "resourcePath": "sprites\\Office\\Office.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b09c9711-adc1-4cb5-8052-2935df29d161",
+            "Value": {
+                "id": "e85fb929-7de4-497e-8f4a-fc7181042a1a",
+                "resourcePath": "sprites\\bg_fnaf\\bg_fnaf.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -8060,6 +8116,8 @@
         "cc56f84f-f861-4f24-805b-5e30554fd0fb",
         "9aa7065a-a603-435a-adb1-9e1dcf66c490",
         "3140e53a-8acf-4e07-a112-8ac731556531",
+        "9d6c6a53-fde6-4306-aa30-2a0f5806b908",
+        "13b0fd15-7c50-403e-ac4e-a7a85d611321",
         "57ebb28d-7167-4de9-8699-9a2e75c631cb",
         "8d351f7f-2a5a-49b6-8ecb-5aa870bcb1f7",
         "e62629cc-2a01-4a25-86fb-fa9a6d676d4e",
