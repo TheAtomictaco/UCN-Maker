@@ -5,10 +5,7 @@ if global.theme = "custom"
 	{
 		global.music_play = global.custom_theme1
 	}
-	else
-	{
-		global.music_play = title_theme
-	}
+
 }
 audio_sound_gain(global.music_play, .5, 0);
 if (!audio_is_playing(global.music_play))
