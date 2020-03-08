@@ -15,3 +15,4 @@ ini_write_string("name", "", global.theme_path);
 ini_write_real("Volume", "Theme", global.theme_vol);
 ini_write_real("Volume", "Office1", global.office1_vol);
 ini_write_real("Volume", "Office2", global.office2_vol);
+ini_write_string("Misc","Warning",global.warning)

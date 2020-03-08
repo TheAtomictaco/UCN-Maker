@@ -15,3 +15,4 @@ global.theme_installed = ini_read_string("name", "", "Default");
 global.theme_vol = ini_read_real("Volume", "Theme", 1);
 global.office1_vol = ini_read_real("Volume", "Office1", 1);
 global.office2_vol = ini_read_real("Volume", "Office2", 1);
+global.warning = ini_read_string("Misc","Warning","This game contains flashing lights, loud noises, 4th wall breaks, and jumpscares!")

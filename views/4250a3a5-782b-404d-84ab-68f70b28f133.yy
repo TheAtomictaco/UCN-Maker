@@ -13,8 +13,8 @@
         "30038042-1636-4c71-bc44-ae937291b217",
         "0d803dc9-aa23-4695-bc28-84cb22adc74a",
         "6440ff02-922f-4002-9d34-f5f00322fb46",
-        "b1b62a2e-64f5-418e-92ff-9f83c41cfd84",
-        "6033c012-a528-47b0-a81d-1e4c4bd795c1"
+        "6033c012-a528-47b0-a81d-1e4c4bd795c1",
+        "c88aa07b-964c-4b9b-a771-0c705d060804"
     ],
     "filterType": "GMIncludedFile",
     "folderName": "theme",
