@@ -9,8 +9,8 @@ path_start(path0, 6, path_action_stop, false);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3BA94E7F
-/// @DnDArgument : "code" "randomnum = choose(DeeDee1,DeeDee2)$(13_10)audio_play_sound(randomnum,1,0)$(13_10)boom = false"
-randomnum = choose(DeeDee1,DeeDee2)
+/// @DnDArgument : "code" "randomnum = "dd1 dd2"$(13_10)audio_play_sound(randomnum,1,0)$(13_10)boom = false"
+randomnum = "dd1 dd2"
 audio_play_sound(randomnum,1,0)
 boom = false
 

@@ -19,7 +19,7 @@ if(global.mode == "nightguard")
 		/// @DnDHash : 610A3D19
 		/// @DnDParent : 64FE8BB2
 		/// @DnDArgument : "var" "global.fan"
-		if(global.fan == 0)
+		if(ControllerOB.fan == 0)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -27,7 +27,7 @@ if(global.mode == "nightguard")
 			/// @DnDParent : 610A3D19
 			/// @DnDArgument : "expr" "1"
 			/// @DnDArgument : "var" "global.fan"
-			global.fan = 1;
+			ControllerOB.fan = 1;
 		
 			/// @DnDAction : YoYo Games.Common.Execute_Code
 			/// @DnDVersion : 1
@@ -61,14 +61,14 @@ if(global.mode == "nightguard")
 		/// @DnDParent : 64FE8BB2
 		/// @DnDArgument : "var" "global.fan"
 		/// @DnDArgument : "value" "1"
-		if(global.fan == 1)
+		if(ControllerOB.fan == 1)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 27C4D476
 			/// @DnDParent : 2E15F398
 			/// @DnDArgument : "var" "global.fan"
-			global.fan = 0;
+			ControllerOB.fan = 0;
 		
 			/// @DnDAction : YoYo Games.Common.Execute_Code
 			/// @DnDVersion : 1

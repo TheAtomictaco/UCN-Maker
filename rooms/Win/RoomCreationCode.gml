@@ -1,39 +1,11 @@
 global.start_coop = 0
 
-if(global.merge == 1)
-{
+
 	if(global.points_show > global.highscore)
 	{
 		global.highscore = global.points_show;
 	}
-}
 
-else
-{
-	if(global.gamemode == "indie")
-	{
-		if(global.points_show > global.hs_indie)
-		{
-			global.hs_indie = global.points_show;
-		}
-	}
-
-	if(global.gamemode == "ucn")
-	{
-		if(global.points_show > global.hs_ucn)
-		{
-			global.hs_ucn = global.points_show;
-		}
-	}
-
-	if(global.gamemode == "reject")
-	{
-		if(global.points_show > global.hs_reject)
-		{
-			global.hs_reject = global.points_show;
-		}
-	}
-}
 
 draw_set_font(global.font1);
 

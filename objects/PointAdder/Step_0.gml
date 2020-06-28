@@ -1,26 +1,21 @@
 global.points = 0
-if ds_queue_empty(character_point)
-{
-	ini_open(packSave +"/characters.ini");
-	var str = ini_read_string("Queues", "0", "");
-	if str != ""
-	{
-		ds_queue_read(character_point, str)
-	}
-}
-repeat (300)
+
+count = 1
+repeat (inSize)
 {
 
-
-	ds_exists(character_point,ds_type_queue)
-	{
-		if !ds_queue_empty(character_point)
-		{
-			character = ds_queue_dequeue(character_point)
-			new_ai = ds_map_find_value(character_map, character+"_ai");
+			character = "char"+string(count)
+			if ds_exists(character_map,ds_type_map)
+			{
+				new_ai = ds_map_find_value(character_map, character+"_ai");
+			}
+			else
+			{
+				new_ai = 0	
+			}
 			global.points += new_ai;
+			count +=1
 		}
-	}
-}
+
 global.points_show = global.points * 10
 

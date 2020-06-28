@@ -39,13 +39,7 @@
         "daa5184d-2028-4e3f-be97-74a616633be2",
         "53252365-ef0f-4fc1-9956-e1510567b9a3",
         "300dd75d-d9fc-4d33-8077-b744690f9169",
-        "8bf5e0b0-0786-4b41-8233-9e5672ccb32d",
-        "f81a039a-770e-4289-9d7a-562c6a225e4c",
-        "31bdaf78-1aa0-4457-b274-663d9e624a20",
-        "ea9bac8f-3728-4f33-a0d0-cd9684680d63",
-        "f076d941-cb74-436b-97cf-98b486bbdb91",
-        "9ce0e40d-6a18-467a-b7cb-d6fcb3c29583",
-        "23ad3dcf-b8e4-4725-989e-3bbe33c06758"
+        "f076d941-cb74-436b-97cf-98b486bbdb91"
     ],
     "filterType": "GMObject",
     "folderName": "CoreStuff",

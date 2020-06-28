@@ -1,2 +1,2 @@
 
-   room_goto(Title)
+   room_goto(New_Title)

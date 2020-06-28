@@ -1,10 +1,7 @@
-	repeat (300)
+count = 1
+repeat (inSize)
 	{
-		ds_exists(character_confirm,ds_type_queue)
-		{
-			if !ds_queue_empty(character_confirm)
-			{
-				character = ds_queue_dequeue(character_confirm)
+				character = "char"+string(count)
 				new_ai = ds_map_find_value(character_map, character+"_ai");
 				mode = ds_map_find_value(character_map, character+"_mode");
 				if mode = "Disabled"
@@ -23,17 +20,9 @@
 					}
 				}
 				ds_map_set(character_map, character+"_ai", new_ai);
+			
+	count+=1
+	}
 
-			}
-		}
-	}
-if ds_queue_empty(character_confirm)
-{
-	ini_open(packSave +"/characters.ini");
-	var str = ini_read_string("Queues", "0", "");
-	if str != ""
-	{
-		ds_queue_read(character_confirm, str)
-	}
-}
+
 

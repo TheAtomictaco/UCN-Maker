@@ -2,7 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 589DFD41
 /// @DnDArgument : "var" "global.monitorboot"
-if(global.monitorboot == 0)
+if(ControllerOB.monitorboot == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
@@ -23,7 +23,7 @@ y = 700;
 /// @DnDHash : 5370943A
 /// @DnDArgument : "var" "global.system"
 /// @DnDArgument : "not" "1"
-if(!(global.system == 0))
+if(!(ControllerOB.sysMenu == 0))
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

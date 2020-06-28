@@ -2,7 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 6C1A470D
 /// @DnDArgument : "var" "global.vent"
-if(global.vent == 0)
+if(ControllerOB.vent == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 	/// @DnDVersion : 1

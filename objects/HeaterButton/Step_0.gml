@@ -8,7 +8,7 @@ image_speed = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 716371FF
 /// @DnDArgument : "var" "global.monitorboot"
-if(global.monitorboot == 0)
+if(ControllerOB.monitorboot == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

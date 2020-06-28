@@ -10,7 +10,7 @@ audio_play_sound(blip, 0, 0);
 /// @DnDHash : 4EBE08C3
 /// @DnDArgument : "expr" "3"
 /// @DnDArgument : "var" "global.snare"
-global.snare = 3;
+ControllerOB.Ventsnare = 3;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1

@@ -3,7 +3,7 @@
 /// @DnDHash : 059D5E83
 /// @DnDArgument : "var" "global.duct"
 /// @DnDArgument : "value" "1"
-if(global.duct == 1)
+if(ControllerOB.duct == 1)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1

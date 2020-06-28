@@ -5,4 +5,4 @@
 /// @DnDArgument : "y" "y+100"
 /// @DnDArgument : "caption" "global.time"
 /// @DnDArgument : "text" "" AM""
-draw_text_transformed(x, y+100, string(global.time) + string(" AM"), 1, 1, 0);
+draw_text_transformed(x, y+100, string(ControllerOB.time) + string(" AM"), 1, 1, 0);

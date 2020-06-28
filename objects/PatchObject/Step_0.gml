@@ -50,7 +50,7 @@ if(l751BA46E_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 275ED159
 	/// @DnDParent : 751BA46E
-	/// @DnDArgument : "room" "Title"
-	/// @DnDSaveInfo : "room" "8b099fca-bc92-48bb-ab0d-816c60544ae7"
-	room_goto(Title);
+	/// @DnDArgument : "room" "New_Title"
+	/// @DnDSaveInfo : "room" "4f0ed1c5-486a-461d-9427-ab3c0e054ff4"
+	room_goto(New_Title);
 }

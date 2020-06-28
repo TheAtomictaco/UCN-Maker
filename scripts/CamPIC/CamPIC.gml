@@ -42,28 +42,17 @@ if(global.cam == 8)
 {
 	sprite_index = _1100;
 	image_index = 0;
-	if global.credit = "DK"
-	{
-		var l40C20512_0 = false;
-		l40C20512_0 = instance_exists(DKOB);
-		if(!l40C20512_0)
-		{
-			instance_create_layer(x, y, "camMiddle", DKOB);
-		}	
-	}
+
 
 }
-else
-{
-	instance_destroy(DKOB)
-}
 
-if(global.monitorboot == 0)
+
+if(ControllerOB.monitorboot == 0)
 {
 	instance_destroy();
 }
 
-if(!(global.system == 0))
+if(!(ControllerOB.sysMenu == 0))
 {
 	instance_destroy();
 }

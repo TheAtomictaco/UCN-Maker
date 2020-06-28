@@ -9,7 +9,7 @@ x = camera_get_view_x(view_camera[0]) + 1300;
 /// @DnDHash : 3EABB3D5
 /// @DnDArgument : "var" "global.vent"
 /// @DnDArgument : "value" "1"
-if(global.vent == 1)
+if(ControllerOB.vent == 1)
 {
 	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1

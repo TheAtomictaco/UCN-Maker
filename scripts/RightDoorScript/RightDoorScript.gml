@@ -6,13 +6,13 @@ if(global.mode == "nightguard")
 {
 	if(!(global.power_batt <= 0))
 	{
-		if(global.right_door == 1)
+		if(ControllerOB.rightDoor == 1)
 		{
-			global.right_door = 0;
+			ControllerOB.rightDoor = 0;
 
 			exit;
 		}
-		if(global.right_door == 0)
+		if(ControllerOB.rightDoor == 0)
 		{
 			var l7C393BEC_0 = false;
 			l7C393BEC_0 = instance_exists(DoorRightUP);
@@ -22,7 +22,7 @@ if(global.mode == "nightguard")
 				l72C39041_0 = instance_exists(DoorRightOB);
 				if(!l72C39041_0)
 				{
-					global.right_door = 1;
+					ControllerOB.rightDoor = 1;
 
 					exit;
 				}

@@ -8,7 +8,7 @@ image_speed = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 5225E5F1
 /// @DnDArgument : "var" "global.system"
-if(global.system == 0)
+if(ControllerOB.sysMenu == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
@@ -40,7 +40,7 @@ else
 /// @DnDVersion : 1
 /// @DnDHash : 716371FF
 /// @DnDArgument : "var" "global.monitorboot"
-if(global.monitorboot == 0)
+if(ControllerOB.monitorboot == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

@@ -1,4 +1,4 @@
-repeat (300)
+repeat (60)
 {
 x = camera_get_view_x(view_camera[0]) + 650;
 }

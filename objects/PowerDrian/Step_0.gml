@@ -4,7 +4,7 @@
 /// @DnDArgument : "var" "global.ases"
 /// @DnDArgument : "not" "1"
 /// @DnDArgument : "value" "1"
-if(!(global.ases == 1))
+if(!(ControllerOB.tool == 1))
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -164,7 +164,7 @@ if(!(global.ases == 1))
 /// @DnDHash : 6FBBE864
 /// @DnDArgument : "var" "global.ases"
 /// @DnDArgument : "value" "1"
-if(global.ases == 1)
+if(ControllerOB.tool == 1)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

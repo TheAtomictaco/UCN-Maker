@@ -2,7 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 5225E5F1
 /// @DnDArgument : "var" "global.vent"
-if(global.vent == 0)
+if(ControllerOB.vent == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 	/// @DnDVersion : 1
@@ -37,7 +37,7 @@ else
 /// @DnDVersion : 1
 /// @DnDHash : 716371FF
 /// @DnDArgument : "var" "global.monitorboot"
-if(global.monitorboot == 0)
+if(ControllerOB.monitorboot == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

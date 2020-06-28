@@ -3,7 +3,7 @@
 /// @DnDHash : 5A023205
 /// @DnDArgument : "var" "global.ases"
 /// @DnDArgument : "value" "5"
-if(global.ases == 5)
+if(ControllerOB.tool == 5)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -20,7 +20,7 @@ if(global.ases == 5)
 /// @DnDHash : 2E26FAED
 /// @DnDArgument : "var" "global.ases"
 /// @DnDArgument : "value" "2"
-if(global.ases == 2)
+if(ControllerOB.tool == 2)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -37,7 +37,7 @@ if(global.ases == 2)
 /// @DnDHash : 4E6BE614
 /// @DnDArgument : "var" "global.ases"
 /// @DnDArgument : "value" "3"
-if(global.ases == 3)
+if(ControllerOB.tool == 3)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -54,7 +54,7 @@ if(global.ases == 3)
 /// @DnDHash : 5CC102C4
 /// @DnDArgument : "var" "global.ases"
 /// @DnDArgument : "value" "4"
-if(global.ases == 4)
+if(ControllerOB.tool == 4)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

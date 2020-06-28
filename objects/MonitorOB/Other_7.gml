@@ -1,6 +1,6 @@
 image_speed = 0;
 
-global.monitorboot = 1;
+ControllerOB.monitorboot = 1;
 
 sprite_index = MonitorSp;
 image_index = 10;

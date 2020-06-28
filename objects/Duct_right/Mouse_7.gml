@@ -10,7 +10,7 @@ audio_play_sound(blip, 0, 0);
 /// @DnDHash : 4EBE08C3
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "global.duct"
-global.duct = 1;
+ControllerOB.duct = 1;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1

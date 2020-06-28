@@ -18,3 +18,7 @@ if global.os = "android"
 {
 	instance_destroy()
 }
+if(global.menuSel != "Settings")
+{
+	instance_destroy();
+}

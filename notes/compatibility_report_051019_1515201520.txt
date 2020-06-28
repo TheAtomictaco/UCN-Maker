@@ -1,44 +1,0 @@
-Converting GML script: zip_writer.gml
-Converted description /// @description  @function zip_impl_crc32(buf:buffer, pos:int, len:int)->int/// @param buf:buffer
-/// @param  pos:int
-/// @param  len:int
-
-Converting GML script: zip_writer.gml
-Converted description /// @description  @function zip_impl_write(dst:buffer, src:buffer, srcPos:int, srcLen:int)/// @param dst:buffer
-/// @param  src:buffer
-/// @param  srcPos:int
-/// @param  srcLen:int
-
-Converting GML script: zip_writer.gml
-Converted description /// @description  @function zip_create(compressionLevel:int = -1)/// @param compressionLevel:int = -1
-
-Converting GML script: zip_writer.gml
-Converted description /// @description  @function zip_destroy(this:zip)/// @param this:zip
-
-Converting GML script: zip_writer.gml
-Error: variable 'buffer_compress' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
-Converted description /// @description  @function zip_add_buffer_ext(this:zip, path:string, buf:buffer, pos:int, len:int)/// @param this:zip
-/// @param  path:string
-/// @param  buf:buffer
-/// @param  pos:int
-/// @param  len:int
-
-Converting GML script: zip_writer.gml
-Converted description /// @description  @function zip_add_buffer(this:zip, path:string, buf:buffer)/// @param this:zip
-/// @param  path:string
-/// @param  buf:buffer
-
-Converting GML script: zip_writer.gml
-Converted description /// @description  @function zip_add_file(this:zip, path:string, filePath:string)/// @param this:zip
-/// @param  path:string
-/// @param  filePath:string
-
-Converting GML script: zip_writer.gml
-Converted description /// @description  @function zip_finalize(this:zip)/// @param this:zip
-
-Converting GML script: zip_writer.gml
-Converted description /// @description  @function zip_save(this:zip, path:string)/// @param this:zip
-/// @param  path:string
-
-Converting GML script: zip_writer.gml
-Converted description /// @description  @function zip_get_buffer(this:zip)->buffer/// @param this:zip

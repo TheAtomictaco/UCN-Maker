@@ -4,5 +4,5 @@
     "mvc": "1.0",
     "name": "Character_create_INDIE",
     "IsCompatibility": false,
-    "IsDnD": false
+    "IsDnD": true
 }

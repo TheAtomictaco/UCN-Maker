@@ -2,7 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 4622AB33
 /// @DnDArgument : "var" "global.up_vent"
-if(global.up_vent == 0)
+if(ControllerOB.upVent == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1

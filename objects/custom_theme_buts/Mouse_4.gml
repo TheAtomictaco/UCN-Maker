@@ -25,6 +25,12 @@ if(!(global.theme_path == name))
 	savegame()
 	ThemeStart()
 	room_restart()
+
+	/// @DnDAction : YoYo Games.Rooms.Restart_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 4A21C541
+	/// @DnDParent : 6D561E9F
+	room_restart();
 }
 
 /// @DnDAction : YoYo Games.Common.Else

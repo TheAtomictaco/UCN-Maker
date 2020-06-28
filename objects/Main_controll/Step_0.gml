@@ -24,12 +24,3 @@ if(l12E57D1F_0)
 	file_delete("patchmodes.txt");
 }
 
-if global.co_op = false
-{
-	AIMODE()
-}
-else
-{
-	AIMODE_COOP()
-}
-

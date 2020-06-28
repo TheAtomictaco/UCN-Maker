@@ -1,12 +1,3 @@
-/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 74098FB6
-/// @DnDArgument : "x" "x"
-/// @DnDArgument : "y" "y-1300"
-/// @DnDArgument : "sprite" "LittleDefualt"
-/// @DnDSaveInfo : "sprite" "ea50646c-ae5c-42e9-8da8-2db522d4f0b8"
-draw_sprite(LittleDefualt, 0, x, y-1300);
-
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0CFCB4D4

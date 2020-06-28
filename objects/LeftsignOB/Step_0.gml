@@ -9,7 +9,7 @@ y = 1000;
 /// @DnDVersion : 1
 /// @DnDHash : 07F0D6A0
 /// @DnDArgument : "var" "global.vent"
-if(global.vent == 0)
+if(ControllerOB.vent == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

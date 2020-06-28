@@ -26,6 +26,9 @@ if global.coop_type = "guest"
 	}
 }
 
+
+
 font_int()
 x_add = -128
 y_add = 64
+Character_create_INDIE()

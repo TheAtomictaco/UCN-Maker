@@ -4,7 +4,7 @@ if(global.power_batt > 0)
 {
 	if(global.jumpscare == 0)
 	{
-		draw_text_transformed(1750, 50, string(global.time) + string(" am") , 1.3, 1.3, 0);
+		draw_text_transformed(1750, 50, string(ControllerOB.time) + string(" am") , 1.3, 1.3, 0);
 		draw_sprite(_1213, 0, 50, 50);
 		draw_text_transformed(120, 50, string(global.fazcoin) + "", 1, 1, 0);
 
@@ -14,7 +14,7 @@ if(global.power_batt > 0)
 		draw_healthbar(20, 970, 250, 1000, draw_usage, c_black, c_white, c_white, 0, true, true);
 		draw_text_transformed(60, 1010, string("Usage: ") + string(""), .6, .6, 0);
 
-		draw_noise = (global.noise / 9) * 100;
+		draw_noise = (ControllerOB.sndMeter / 9) * 100;
 		draw_healthbar(20, 1025, 250, 1055, draw_noise, c_black, c_white, c_white, 0, true, true);
 		draw_text_transformed(60, 1070, string("Noise: ") + string(""), .6, .6, 0);
 

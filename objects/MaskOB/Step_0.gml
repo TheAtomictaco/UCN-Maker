@@ -8,7 +8,7 @@ x = camera_get_view_x(view_camera[0]) + 960;
 /// @DnDVersion : 1
 /// @DnDHash : 4622AB33
 /// @DnDArgument : "var" "global.mask"
-if(global.mask == 0)
+if(ControllerOB.mask == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1

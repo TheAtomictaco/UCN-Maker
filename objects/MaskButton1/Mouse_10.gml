@@ -10,7 +10,7 @@ if(global.os == "windows")
 	/// @DnDHash : 63FF9892
 	/// @DnDParent : 63621684
 	/// @DnDArgument : "var" "global.mask"
-	if(global.mask == 0)
+	if(ControllerOB.mask == 0)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -18,21 +18,14 @@ if(global.os == "windows")
 		/// @DnDParent : 63FF9892
 		/// @DnDArgument : "expr" "1"
 		/// @DnDArgument : "var" "global.mask"
-		global.mask = 1;
-	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 30C2AFC1
-		/// @DnDParent : 63FF9892
-		/// @DnDArgument : "var" "global.poem"
-		global.poem = 0;
+		ControllerOB.mask = 1;
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 05B5BC7A
 		/// @DnDParent : 63FF9892
 		/// @DnDArgument : "var" "global.monitor"
-		global.monitor = 0;
+		ControllerOB.monitor = 0;
 	
 		/// @DnDAction : YoYo Games.Common.Exit_Event
 		/// @DnDVersion : 1
@@ -47,7 +40,7 @@ if(global.os == "windows")
 	/// @DnDParent : 63621684
 	/// @DnDArgument : "var" "global.mask"
 	/// @DnDArgument : "value" "1"
-	if(global.mask == 1)
+	if(ControllerOB.mask == 1)
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
@@ -73,7 +66,7 @@ if(global.os == "windows")
 		/// @DnDHash : 084A2B14
 		/// @DnDParent : 401764DB
 		/// @DnDArgument : "var" "global.mask"
-		global.mask = 0;
+		ControllerOB.mask = 0;
 	
 		/// @DnDAction : YoYo Games.Common.Exit_Event
 		/// @DnDVersion : 1

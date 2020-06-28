@@ -1,8 +1,0 @@
-Show GJ username in discord
-
-	var l43269B2D_0 = false;
-	l43269B2D_0 = instance_exists(themebutton2);
-	if(!l43269B2D_0)
-	{
-		instance_create_layer(1776, 50, "Instances", themebutton2);
-	}

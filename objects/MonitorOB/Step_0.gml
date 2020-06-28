@@ -9,14 +9,14 @@ x = camera_get_view_x(view_camera[0]) + 960;
 /// @DnDHash : 14F9DDCB
 /// @DnDArgument : "var" "global.monitorboot"
 /// @DnDArgument : "value" "1"
-if(global.monitorboot == 1)
+if(ControllerOB.monitorboot == 1)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6FCC2FDD
 	/// @DnDParent : 14F9DDCB
 	/// @DnDArgument : "var" "global.system"
-	if(global.system == 0)
+	if(ControllerOB.sysMenu == 0)
 	{
 		/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 		/// @DnDVersion : 1
@@ -45,7 +45,7 @@ if(global.monitorboot == 1)
 	/// @DnDParent : 14F9DDCB
 	/// @DnDArgument : "var" "global.system"
 	/// @DnDArgument : "value" "1"
-	if(global.system == 1)
+	if(ControllerOB.sysMenu == 1)
 	{
 		/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 		/// @DnDVersion : 1
@@ -74,7 +74,7 @@ if(global.monitorboot == 1)
 	/// @DnDParent : 14F9DDCB
 	/// @DnDArgument : "var" "global.system"
 	/// @DnDArgument : "value" "2"
-	if(global.system == 2)
+	if(ControllerOB.sysMenu == 2)
 	{
 		/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 		/// @DnDVersion : 1
@@ -103,7 +103,7 @@ if(global.monitorboot == 1)
 	/// @DnDParent : 14F9DDCB
 	/// @DnDArgument : "var" "global.system"
 	/// @DnDArgument : "value" "3"
-	if(global.system == 3)
+	if(ControllerOB.sysMenu == 3)
 	{
 		/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 		/// @DnDVersion : 1
@@ -413,14 +413,14 @@ if(global.monitorboot == 1)
 /// @DnDVersion : 1
 /// @DnDHash : 4622AB33
 /// @DnDArgument : "var" "global.monitor"
-if(global.monitor == 0)
+if(ControllerOB.monitor == 0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 51A0376C
 	/// @DnDParent : 4622AB33
 	/// @DnDArgument : "var" "global.monitorboot"
-	global.monitorboot = 0;
+	ControllerOB.monitorboot = 0;
 
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1

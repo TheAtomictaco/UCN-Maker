@@ -10,7 +10,7 @@ if(global.os == "android")
 	/// @DnDHash : 2E08C6D5
 	/// @DnDParent : 18B4B2DB
 	/// @DnDArgument : "var" "global.mask"
-	if(global.mask == 0)
+	if(ControllerOB.mask == 0)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -18,21 +18,14 @@ if(global.os == "android")
 		/// @DnDParent : 2E08C6D5
 		/// @DnDArgument : "expr" "1"
 		/// @DnDArgument : "var" "global.mask"
-		global.mask = 1;
-	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 45FBB9C1
-		/// @DnDParent : 2E08C6D5
-		/// @DnDArgument : "var" "global.poem"
-		global.poem = 0;
+		ControllerOB.mask = 1;
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 37FC07B8
 		/// @DnDParent : 2E08C6D5
 		/// @DnDArgument : "var" "global.monitor"
-		global.monitor = 0;
+		ControllerOB.monitor = 0;
 	
 		/// @DnDAction : YoYo Games.Common.Exit_Event
 		/// @DnDVersion : 1
@@ -47,7 +40,7 @@ if(global.os == "android")
 	/// @DnDParent : 18B4B2DB
 	/// @DnDArgument : "var" "global.mask"
 	/// @DnDArgument : "value" "1"
-	if(global.mask == 1)
+	if(ControllerOB.mask == 1)
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
@@ -74,7 +67,7 @@ if(global.os == "android")
 		/// @DnDHash : 44DE1B04
 		/// @DnDParent : 620EFDEC
 		/// @DnDArgument : "var" "global.mask"
-		global.mask = 0;
+		ControllerOB.mask = 0;
 	
 		/// @DnDAction : YoYo Games.Common.Exit_Event
 		/// @DnDVersion : 1

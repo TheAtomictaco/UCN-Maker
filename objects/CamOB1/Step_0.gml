@@ -124,35 +124,16 @@ if(global.cam == 5)
 			/// @DnDArgument : "var" "global.force_static"
 			if(global.force_static == 0)
 			{
-				/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
+				/// @DnDAction : YoYo Games.Instances.Set_Alarm
 				/// @DnDVersion : 1
-				/// @DnDHash : 6E8635B7
+				/// @DnDHash : 6BDE62BD
+				/// @DnDApplyTo : 81a490cf-1c22-4aa4-b6bf-d480b3943c72
 				/// @DnDParent : 3F858A36
-				/// @DnDArgument : "soundid" "jumpscareshort"
-				/// @DnDArgument : "not" "1"
-				/// @DnDSaveInfo : "soundid" "3149ecb3-4937-48e6-8071-f5d0845329aa"
-				var l6E8635B7_0 = jumpscareshort;
-				if (!audio_is_playing(l6E8635B7_0))
-				{
-					/// @DnDAction : YoYo Games.Instances.Set_Alarm
-					/// @DnDVersion : 1
-					/// @DnDHash : 6BDE62BD
-					/// @DnDApplyTo : 81a490cf-1c22-4aa4-b6bf-d480b3943c72
-					/// @DnDParent : 6E8635B7
-					/// @DnDArgument : "steps" "20"
-					/// @DnDArgument : "alarm" "10"
-					with(MainAIcontroller) {
-					alarm_set(10, 20);
-					
-					}
+				/// @DnDArgument : "steps" "20"
+				/// @DnDArgument : "alarm" "10"
+				with(MainAIcontroller) {
+				alarm_set(10, 20);
 				
-					/// @DnDAction : YoYo Games.Audio.Play_Audio
-					/// @DnDVersion : 1
-					/// @DnDHash : 7BFEE910
-					/// @DnDParent : 6E8635B7
-					/// @DnDArgument : "soundid" "jumpscareshort"
-					/// @DnDSaveInfo : "soundid" "3149ecb3-4937-48e6-8071-f5d0845329aa"
-					audio_play_sound(jumpscareshort, 0, 0);
 				}
 			
 				/// @DnDAction : YoYo Games.Instances.Set_Alarm
@@ -415,7 +396,7 @@ if(global.cam == 8)
 /// @DnDVersion : 1
 /// @DnDHash : 6DC411BB
 /// @DnDArgument : "var" "global.monitorboot"
-if(global.monitorboot == 0)
+if(ControllerOB.monitorboot == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
@@ -429,7 +410,7 @@ if(global.monitorboot == 0)
 /// @DnDHash : 12E4424A
 /// @DnDArgument : "var" "global.system"
 /// @DnDArgument : "not" "1"
-if(!(global.system == 0))
+if(!(ControllerOB.sysMenu == 0))
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

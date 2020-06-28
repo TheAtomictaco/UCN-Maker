@@ -1,4 +1,4 @@
-global.vent = 0;
+ControllerOB.vent = 0;
 
 with(FadeOB) {
 alarm_set(1, 600);

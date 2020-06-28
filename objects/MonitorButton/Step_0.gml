@@ -17,7 +17,7 @@ if(global.mode == "nightguard")
 	/// @DnDParent : 613CDF86
 	/// @DnDArgument : "var" "global.mask"
 	/// @DnDArgument : "value" "1"
-	if(global.mask == 1)
+	if(ControllerOB.mask == 1)
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
@@ -32,7 +32,7 @@ if(global.mode == "nightguard")
 /// @DnDVersion : 1
 /// @DnDHash : 70A5F06F
 /// @DnDArgument : "var" "global.mask"
-if(global.mask == 0)
+if(ControllerOB.mask == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1

@@ -1,8 +1,4 @@
 
-if(character_create != "nono")
-{
-	Character_create_INDIE()
-}
 
 
 
@@ -239,51 +235,7 @@ if(global.menu == "power")
 
 }
 
-if(global.menu == "theme")
-{
-	var l099327E6_0 = false;
-	l099327E6_0 = instance_exists(UCN_s_button);
-	if(!l099327E6_0)
-	{
-		instance_create_layer(1776, 120, "Instances", UCN_s_button);
-	}
-	
-	var l099327E6_0 = false;
-	l099327E6_0 = instance_exists(DDLC_s_button);
-	if(!l099327E6_0)
-	{
-		instance_create_layer(1776, 180, "Instances", DDLC_s_button);
-	}
-	
-	var l099327E6_0 = false;
-	l099327E6_0 = instance_exists(Undertale_s_button);
-	if(!l099327E6_0)
-	{
-		instance_create_layer(1776, 240, "Instances", Undertale_s_button);
-	}
-	
-	var l099327E6_0 = false;
-	l099327E6_0 = instance_exists(Baldi_s_button);
-	if(!l099327E6_0)
-	{
-		instance_create_layer(1776, 300, "Instances", Baldi_s_button);
-	}
-	
-	var l099327E6_0 = false;
-	l099327E6_0 = instance_exists(Custom_s_button);
-	if(!l099327E6_0)
-	{
-		instance_create_layer(1776, 360, "Instances", Custom_s_button);
-	}
 
-	var l23103F49_0 = false;
-	l23103F49_0 = instance_exists(Ok_buton);
-	if(!l23103F49_0)
-	{
-		instance_create_layer(1776, 1010, "Instances", Ok_buton);
-	}
-	
-}
 
 if(global.menu == "challenge")
 {
@@ -292,31 +244,6 @@ if(global.menu == "challenge")
 	if(!l099327E6_0)
 	{
 		instance_create_layer(1776, 945, "Instances", GoButton);
-	}
-	if(global.gamemode == "indie")
-	{
-		var l5FDDCE3C_0 = false;
-		l5FDDCE3C_0 = instance_exists(Doki_chal_1);
-		if(!l5FDDCE3C_0)
-		{
-			instance_create_layer(1776, 120, "Instances", Doki_chal_1);
-		}
-	
-		var l20B9D32F_0 = false;
-		l20B9D32F_0 = instance_exists(Doki_chal_2);
-		if(!l20B9D32F_0)
-		{
-			instance_create_layer(1776, 180, "Instances", Doki_chal_2);
-		}
-	
-		var l06C2BC72_0 = false;
-		l06C2BC72_0 = instance_exists(Doki_chal_3);
-		if(!l06C2BC72_0)
-		{
-			instance_create_layer(1776, 240, "Instances", Doki_chal_3);
-		}
-		
-
 	}
 
 

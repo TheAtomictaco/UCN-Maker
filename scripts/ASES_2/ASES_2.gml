@@ -6,16 +6,16 @@ if(global.mode == "nightguard")
 {
 
 
-	if(!(global.ases == 2))
+	if(!(ControllerOB.tool == 2))
 	{
 		script_execute(SubtractDrainAsess);
 		global.drainpower += 1;
-		global.ases = 2;
+		ControllerOB.tool = 2;
 	}
 
 	if(!(global.power_batt <= 0))
 	{
 		audio_play_sound(blip, 0, 0);
-		global.ases = 2;
+		ControllerOB.tool = 2;
 	}
 }

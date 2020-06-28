@@ -9,7 +9,7 @@ drawalpha = 0;
 /// @DnDHash : 05949C99
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "global.vent"
-global.vent = 1;
+ControllerOB.vent = 1;
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1

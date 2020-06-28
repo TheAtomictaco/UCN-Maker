@@ -1,4 +1,4 @@
-if(!(global.time == 12))
+if(!(ControllerOB.time == 12))
 {
 	if(global.temp < 60)
 	{

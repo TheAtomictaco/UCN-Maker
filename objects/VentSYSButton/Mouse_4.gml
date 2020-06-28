@@ -3,7 +3,7 @@
 /// @DnDHash : 15B1DC68
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "global.system"
-global.system = 1;
+ControllerOB.sysMenu = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
