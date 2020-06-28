@@ -1807,6 +1807,14 @@
             }
         },
         {
+            "Key": "411b5c88-bccb-4f16-a533-3abcbc980269",
+            "Value": {
+                "id": "d87c7d7f-d703-42a8-990f-bf01d15739e5",
+                "resourcePath": "datafiles_yy\\game_data\\box.dia.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "415138d5-92c2-4ec5-8ba9-7dc401e3e7c3",
             "Value": {
                 "id": "37c4d001-0b15-4763-9d22-ff6fe6eee238",

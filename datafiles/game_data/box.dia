@@ -1,0 +1,6 @@
+[test]
+message3="play: BAth time"
+message2="It is Brain time!"
+message1="It is !time on !date, !player"
+message0="Hello !player"
+num="4"
