@@ -1,18 +1,14 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 3683F62F
-/// @DnDArgument : "code" "if(global.mode == "nightguard")$(13_10){$(13_10)	if(!(global.power_batt <= 0))$(13_10)	{$(13_10)		if(global.right_door == 1)$(13_10)		{$(13_10)			global.right_door = 0;$(13_10)$(13_10)			exit;$(13_10)		}$(13_10)		if(global.right_door == 0)$(13_10)		{$(13_10)			var l7C393BEC_0 = false;$(13_10)			l7C393BEC_0 = instance_exists(DoorRightUP);$(13_10)			if(!l7C393BEC_0)$(13_10)			{$(13_10)				var l72C39041_0 = false;$(13_10)				l72C39041_0 = instance_exists(DoorRightOB);$(13_10)				if(!l72C39041_0)$(13_10)				{$(13_10)					global.right_door = 1;$(13_10)$(13_10)					exit;$(13_10)				}$(13_10)			}$(13_10)		}$(13_10)	}$(13_10)}"
 if(global.mode == "nightguard")
 {
 	if(!(global.power_batt <= 0))
 	{
-		if(ControllerOB.rightDoor == 1)
+		if(global.right_door == 1)
 		{
-			ControllerOB.rightDoor = 0;
+			global.right_door = 0;
 
 			exit;
 		}
-		if(ControllerOB.rightDoor == 0)
+		if(global.right_door == 0)
 		{
 			var l7C393BEC_0 = false;
 			l7C393BEC_0 = instance_exists(DoorRightUP);
@@ -22,7 +18,7 @@ if(global.mode == "nightguard")
 				l72C39041_0 = instance_exists(DoorRightOB);
 				if(!l72C39041_0)
 				{
-					ControllerOB.rightDoor = 1;
+					global.right_door = 1;
 
 					exit;
 				}

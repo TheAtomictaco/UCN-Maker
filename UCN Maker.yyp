@@ -5055,14 +5055,6 @@
             }
         },
         {
-            "Key": "b6b0c8d6-bd67-4920-bb37-7810bfdc273b",
-            "Value": {
-                "id": "3a8278f1-4238-4351-ab58-dbe59233c3d8",
-                "resourcePath": "scripts\\Pack_List\\Pack_List.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "b6fac43e-6aaa-4d4b-b09f-3761807d30b3",
             "Value": {
                 "id": "b507502f-94ff-4e80-b055-349526e6b460",
@@ -5396,14 +5388,6 @@
                 "id": "ddc2e837-e201-41da-a765-38fbf5e02fb1",
                 "resourcePath": "objects\\MaskoffOB\\MaskoffOB.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "c512127b-03d7-44bd-bd41-9b0c118431ad",
-            "Value": {
-                "id": "e8dc5600-8f37-4cb3-8b80-4582c090d143",
-                "resourcePath": "scripts\\Theme_List\\Theme_List.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -7031,7 +7015,6 @@
         "adeafabb-b917-4c94-9755-bf3e70d9e4af",
         "d958994a-f406-479a-aa16-1f0504b49b22",
         "88851996-aa73-4618-91f1-ee0deaea4f92",
-        "c512127b-03d7-44bd-bd41-9b0c118431ad",
         "4b3f197e-dabd-47d7-bf9c-a7ae55321770",
         "f16520c7-e91a-4ac5-b12d-1fb4cd573ece",
         "388a10da-c5df-4756-bada-990ed691f3cc",
@@ -7042,7 +7025,6 @@
         "f6328208-84af-4428-8f80-35e518ece371",
         "7f80bd4f-1bf8-4405-954b-4dff115cc301",
         "acd7a960-8aa2-4f32-95d8-1a12c4826db7",
-        "b6b0c8d6-bd67-4920-bb37-7810bfdc273b",
         "0bccaae9-5554-43a8-8ae0-f8329fa188d8",
         "0bbfe40d-98d0-4da5-a070-c98d034a74e0",
         "dd225450-20d6-46c4-9cfb-d671edade35b",

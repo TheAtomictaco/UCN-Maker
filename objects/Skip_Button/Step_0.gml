@@ -13,3 +13,7 @@ if global.room_option = "pause"
 {
 	instance_destroy()
 }
+if(global.menuSel != "Settings")
+{
+	instance_destroy();
+}

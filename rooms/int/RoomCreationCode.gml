@@ -24,9 +24,6 @@ ThemeStart()
 globalvar packSave;
 packSave = "packs/"+string(global.pack_path)
 CharacterQue_INT()
-Theme_List()
-Pack_List()
-
 
 //attempt to log into gamejolt if username and token are in the save file
 if(!(global.GJ_name == ""))
