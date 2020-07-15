@@ -8,16 +8,18 @@ if file != ""
 	name = ini_read_string("name","","Theme")
 	if name != "Theme"
 	{
-	ini_close()
-	var l150F999E_0 = file_exists("theme_data/"+string(name)+"/config.ini");
-	if(l150F999E_0)
-	{
-		//Does nothing
-	}
+		ini_close()
+		var l150F999E_0 = file_exists("theme_data/"+string(name)+"/config.ini");
+		if(l150F999E_0)
+		{
+			//Does nothing
+		}
 	else
 	{
-
-		}
+		ini_close();
+		zip_unzip(file,"theme_data/"+string(name))
+		global.theme_path = name
+	}
 		savegame()
 		ThemeStart()
 		room_restart()
