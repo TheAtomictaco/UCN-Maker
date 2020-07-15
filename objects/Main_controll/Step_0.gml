@@ -13,11 +13,11 @@ if(l12E57D1F_0)
 {
 	ini_open("patchmodes.txt");
 
-	global.latest_ver = ini_read_string("latest_version", "", "default");
+	global.latest_ver = ini_read_string("Version", "latVer", "default");
 
-	global.latest_tag = ini_read_string("latest_tag", "", "default");
+	global.latest_tag = ini_read_string("Version", "latTag", "default");
 
-	global.version_info = ini_read_string("version_info", "", "HUH, there is nothing here.");
+	global.version_info = ini_read_string("Version", "VerInfo", "HUH, there is nothing here.");
 
 	ini_close();
 

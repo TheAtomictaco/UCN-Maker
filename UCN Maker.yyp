@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "0057b70d-fbd2-4b37-bdcd-7aac76299ef6",
-            "Value": {
-                "id": "cac47c37-fc6b-4b48-9286-3024423c8c2b",
-                "resourcePath": "objects\\Import_theme4URL\\Import_theme4URL.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "00a9a8e7-44ce-4090-b919-dfbc37bbf4b2",
             "Value": {
                 "id": "37aad2e9-fff2-4dea-a7e5-3355c8b71cf6",
@@ -879,14 +871,6 @@
             }
         },
         {
-            "Key": "257e0f4e-2e36-4eba-8d80-daafc7cdc335",
-            "Value": {
-                "id": "d0cf6545-0351-4829-a44f-2f60d498bad8",
-                "resourcePath": "objects\\Import_theme2URL\\Import_theme2URL.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "25c2351a-48c7-406b-a5d5-f1fcee3003b0",
             "Value": {
                 "id": "b99fa092-3d9d-4e82-85b1-fb8bc20f4b4c",
@@ -1259,14 +1243,6 @@
             "Value": {
                 "id": "eef1b147-fd80-461b-8b4b-78ac05800c6c",
                 "resourcePath": "objects\\TurnTheme3\\TurnTheme3.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "3382ec7c-1cfb-4528-9600-c78d87107b8d",
-            "Value": {
-                "id": "adbcd78d-9b06-437f-8ddc-951a11a71a78",
-                "resourcePath": "objects\\Import_theme3\\Import_theme3.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1983,14 +1959,6 @@
             }
         },
         {
-            "Key": "4be23cc0-e357-44c8-b23e-d1e5c0b73b1f",
-            "Value": {
-                "id": "d16e4dab-761c-4964-89e3-68a4801a2bc0",
-                "resourcePath": "objects\\Import_theme1URL\\Import_theme1URL.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4bee6716-6b2a-4675-af66-d61ca18839f9",
             "Value": {
                 "id": "fd59af96-8c2c-46ae-8df3-a09feef16d86",
@@ -2115,14 +2083,6 @@
             "Value": {
                 "id": "1fbdb3b7-8ae1-4b84-a47c-3e1197151ceb",
                 "resourcePath": "objects\\OpenTheme\\OpenTheme.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "51a7f7a1-897c-4f47-9eb3-42b9d353e3de",
-            "Value": {
-                "id": "0b9e0e43-5440-4beb-a716-538d2ca7919c",
-                "resourcePath": "objects\\Import_theme3URL\\Import_theme3URL.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3663,14 +3623,6 @@
             }
         },
         {
-            "Key": "8d86cdf8-f81f-41df-8adf-9adcf08c9d2c",
-            "Value": {
-                "id": "18cddf11-1615-4201-be29-5ac067a7da7b",
-                "resourcePath": "objects\\Import_theme1\\Import_theme1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8dc04761-5bb6-47af-9e52-eae879515e89",
             "Value": {
                 "id": "e89e80f7-1736-4885-86dc-75e92157f39d",
@@ -4619,14 +4571,6 @@
             "Value": {
                 "id": "a95a20cb-8f4f-43fc-b008-373751191f59",
                 "resourcePath": "objects\\name_Button\\name_Button.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b333a7fa-c9b5-4abb-a435-f0fa79b27639",
-            "Value": {
-                "id": "ad3e751c-d473-40cf-9f49-3be122005a37",
-                "resourcePath": "objects\\Import_theme4\\Import_theme4.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -5623,14 +5567,6 @@
             }
         },
         {
-            "Key": "db826092-af51-4c18-b613-28ddba757382",
-            "Value": {
-                "id": "9e1e98d2-beea-4be6-aacb-974bbf84f52a",
-                "resourcePath": "objects\\Import_Theme5\\Import_Theme5.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "dbf8829c-d327-4b1c-8688-4fd07d2c4abf",
             "Value": {
                 "id": "8deef0f3-baff-4b88-bb8b-1c017072c230",
@@ -5979,14 +5915,6 @@
             "Value": {
                 "id": "46938547-8779-435a-8c16-fc1e017b3b48",
                 "resourcePath": "objects\\screen_Button\\screen_Button.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "eb72e380-2fd3-486c-95a4-4ae4ad73d3f3",
-            "Value": {
-                "id": "685e42de-a236-4941-a765-8a0706a89010",
-                "resourcePath": "objects\\Import_theme2\\Import_theme2.yy",
                 "resourceType": "GMObject"
             }
         },

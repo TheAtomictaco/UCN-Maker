@@ -1,6 +1,6 @@
 //Deletes patch file if it exsists so that no conflicts will occur
 file_delete("patchmodes.txt");
-
+directory_destroy("temp")
 //Set Variables
 INT_script()
 global.room_option = ""
