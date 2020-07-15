@@ -16,6 +16,7 @@ if(global.menuSel == "main")
 	instance_create_layer(128, 704, "Button", ExtrasButton);
 
 	instance_create_layer(128, 800, "Button", QuitButtonOB);
+	instance_create_layer(1568, 64, "Button", Update_Button);
 	}
 	rousr_dissonance_set_state("Main menu")
 }
@@ -62,6 +63,17 @@ if(global.menuSel == "SinglePlayer")
 
 	instance_create_layer(128, 320, "Button", BackButton);
 	instance_create_layer(128, 320, "Button", Pack_ButtonControl);
+	}
+}
+if(global.menuSel == "Update")
+{
+	var l3BDA9812_0 = false;
+	l3BDA9812_0 = instance_exists(UpdateController);
+	if(!l3BDA9812_0)
+	{
+
+	instance_create_layer(128, 320, "Button", UpdateController);
+
 	}
 }
 

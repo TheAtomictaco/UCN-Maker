@@ -8,7 +8,7 @@ ini_write_string("save", "theme", global.theme);
 ini_write_string("save", "Debug", global.debug);
 ini_write_string("save", "screen", global.screen);
 ini_write_string("save", "patch", global.patch);
-
+ini_write_string("setting","path",program_directory)
 
 ini_write_real("theme", "theme_mode", global.theme_mode);
 ini_write_real("theme", "theme_used", global.theme_used);

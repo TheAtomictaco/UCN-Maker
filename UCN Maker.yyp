@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "264cd0ea-d146-4d69-b3d0-0594ccf4fcd1",
+            "Value": {
+                "id": "92158f96-c739-40fa-954c-1cae84cff53f",
+                "resourcePath": "objects\\UpdateController\\UpdateController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2659139c-7d9b-4e40-ae0d-99c153422291",
             "Value": {
                 "id": "d8dbb748-94e7-44d9-aef0-54654b86ae68",
@@ -1828,6 +1836,14 @@
                 "id": "5a586443-4e4e-4b89-9b32-9b8194b40837",
                 "resourcePath": "sprites\\cam7SP\\cam7SP.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "415a40ed-f3c9-4b35-b1d1-0fa1d0675ce1",
+            "Value": {
+                "id": "433e2259-dc4d-47da-b48b-9461dbfd9f6e",
+                "resourcePath": "objects\\Update_Button\\Update_Button.yy",
+                "resourceType": "GMObject"
             }
         },
         {
