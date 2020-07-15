@@ -46,15 +46,9 @@ if(global.menu == "default")
 	l099327E6_0 = instance_exists(Info_Button);
 	if(!l099327E6_0)
 	{
-		instance_create_layer(1862, 53, "Instances", Info_Button);
+		instance_create_layer(1862, 160, "Instances", Info_Button);
 	}
 	
-	var l099327E6_0 = false;
-	l099327E6_0 = instance_exists(name_Button);
-	if(!l099327E6_0)
-	{
-		instance_create_layer(1862, 110, "Instances", name_Button);
-	}
 	
 	if global.co_op = false or global.coop_type = "host"
 	{
@@ -105,28 +99,28 @@ if(global.menu == "default")
 		l7D376AAD_0 = instance_exists(Preset_0);
 		if(!l7D376AAD_0)
 		{
-			instance_create_layer(1776, 200, "Instances", Preset_0);
+			instance_create_layer(1776, 240, "Instances", Preset_0);
 		}
 
 		var l1A73FDAC_0 = false;
 		l1A73FDAC_0 = instance_exists(Preset_5);
 		if(!l1A73FDAC_0)
 		{
-			instance_create_layer(1776, 280, "Instances", Preset_5);
+			instance_create_layer(1776, 320, "Instances", Preset_5);
 		}
 
 		var l5A1E4C84_0 = false;
 		l5A1E4C84_0 = instance_exists(Preset_10);
 		if(!l5A1E4C84_0)
 		{
-			instance_create_layer(1776, 360, "Instances", Preset_10);
+			instance_create_layer(1776, 400, "Instances", Preset_10);
 		}
 
 		var l15C1735B_0 = false;
 		l15C1735B_0 = instance_exists(Preset_20);
 		if(!l15C1735B_0)
 		{
-			instance_create_layer(1776, 440, "Instances", Preset_20);
+			instance_create_layer(1776, 480, "Instances", Preset_20);
 		}
 
 	}

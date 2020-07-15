@@ -14,5 +14,5 @@ zip_add_file(_zip, dir+"loading.png","loading.png");
 zip_add_file(_zip, dir+"font.ttf","font.ttf");
 _zip = zip_close(_zip);
 
-if(_zip >= 0) { buffer_save(_zip, "theme.zip"); }
+if(_zip >= 0) { buffer_save(_zip, "temp\\theme.zip"); }
 buffer_delete(_zip);

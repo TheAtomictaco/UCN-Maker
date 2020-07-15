@@ -11,7 +11,7 @@ sound_int()
 ////INT Scripts
 //Make and install a zip file of the default theme
 Default_Theme_Zip()
-zip_unzip("theme.zip","theme_data/Default")
+zip_unzip("temp\\theme.zip","theme_data/Default")
 
 //loadgame settings
 Loadgame()

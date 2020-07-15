@@ -13,6 +13,13 @@ if(global.mode_type == "")
 	/// @DnDArgument : "value" "1"
 	if(global.show_info == 1)
 	{
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 5E591F5E
+		/// @DnDParent : 3AED4E65
+		/// @DnDArgument : "code" "global.inforead = character"
+		global.inforead = character
+	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 325FF2B8

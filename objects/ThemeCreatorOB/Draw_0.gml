@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+/// @DnDVersion : 1.1
+/// @DnDHash : 1D833959
+/// @DnDArgument : "halign" "fa_center"
+/// @DnDArgument : "valign" "fa_middle"
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1C6D5EB5

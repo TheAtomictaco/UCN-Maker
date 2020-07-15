@@ -9,6 +9,6 @@ draw_set_valign(fa_middle);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 6782C0B8
-/// @DnDArgument : "code" "draw_self()$(13_10)draw_text_transformed(x-25,y,"CHAR-Info",.8,.8,1)"
+/// @DnDArgument : "code" "draw_self()$(13_10)draw_text_transformed(x-25,y,"CHAR-Info",.6,.6,1)"
 draw_self()
-draw_text_transformed(x-25,y,"CHAR-Info",.8,.8,1)
+draw_text_transformed(x-25,y,"CHAR-Info",.6,.6,1)
