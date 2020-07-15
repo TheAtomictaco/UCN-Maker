@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "01893eaa-f54a-4ae4-bf84-143e69a3d85a",
-            "Value": {
-                "id": "0d363676-f2e2-4a67-8664-3b160d4e8853",
-                "resourcePath": "rooms\\Log_In_room\\Log_In_room.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "0219f7fb-78f7-4914-a195-094ddf228544",
             "Value": {
                 "id": "fb8a74f2-619b-47dd-8fc3-dfaf6fc777a9",
@@ -367,14 +359,6 @@
             }
         },
         {
-            "Key": "116b175e-7c1b-474a-a222-2753d8c3d2ea",
-            "Value": {
-                "id": "8414b58b-4aa0-43d4-98ba-31624bac3337",
-                "resourcePath": "rooms\\room0\\room0.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "11fda532-6086-4df7-adad-9b8cb45af223",
             "Value": {
                 "id": "37304f30-b307-455d-8499-c01f665cf224",
@@ -476,14 +460,6 @@
                 "id": "15036572-b35b-4565-ade9-9d60988b1fca",
                 "resourcePath": "sprites\\_1718\\_1718.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "162126d9-1a4d-4980-8b06-894e0cf83270",
-            "Value": {
-                "id": "7f2f5121-bd96-4a02-bbf0-e538cdeaae40",
-                "resourcePath": "rooms\\room_test0\\room_test0.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1695,14 +1671,6 @@
             }
         },
         {
-            "Key": "3f21bb39-2adf-4616-aff6-810a02bee899",
-            "Value": {
-                "id": "5c1a07a7-f627-43ca-bf4b-1b03b8466243",
-                "resourcePath": "rooms\\rm_demo\\rm_demo.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "3f56eed1-5ca7-4fcd-a523-3715fff30308",
             "Value": {
                 "id": "fc23ecdb-801d-4750-8ed2-5f171517a082",
@@ -2287,14 +2255,6 @@
             }
         },
         {
-            "Key": "573aa81c-1f11-498d-8e0d-fe17fed781bb",
-            "Value": {
-                "id": "93a1024e-d8f8-4106-a97c-e7e7abf326e2",
-                "resourcePath": "rooms\\Choose_mode\\Choose_mode.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "577a3ca7-256b-4fd3-8e59-2af9509ce5dd",
             "Value": {
                 "id": "ad584e34-5c30-41a6-a7fd-dbb05e377e4c",
@@ -2836,14 +2796,6 @@
                 "id": "2d0ad622-ab4a-4cbe-b8cf-194bf7c3b195",
                 "resourcePath": "scripts\\example_on_spectate\\example_on_spectate.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "693b7db1-de24-4e3b-ac19-690cb5cccac9",
-            "Value": {
-                "id": "dc9b0ca7-a6ee-401b-89db-fb075750269d",
-                "resourcePath": "rooms\\rm_lan_lobby\\rm_lan_lobby.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -3983,14 +3935,6 @@
             }
         },
         {
-            "Key": "9867ced3-74db-4863-8203-ff0d75f09bc1",
-            "Value": {
-                "id": "7675f252-545b-4c53-b11d-9af0a8fa86a0",
-                "resourcePath": "rooms\\COOP_menu\\COOP_menu.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "9880d8ef-dbd5-4eda-9d3f-1b3e7ad4dcc8",
             "Value": {
                 "id": "917c4eac-b8e9-4666-b525-8dac8d831852",
@@ -4895,14 +4839,6 @@
             }
         },
         {
-            "Key": "baf26be6-00eb-4bcc-b9fb-e8dd954a2110",
-            "Value": {
-                "id": "6502af89-41b7-44ab-8994-5e721834a6f7",
-                "resourcePath": "views\\baf26be6-00eb-4bcc-b9fb-e8dd954a2110.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "bb7af17f-cdaf-4822-a372-f21ac8c778f0",
             "Value": {
                 "id": "fb06613c-ad78-4ca6-8a93-769fff0e6454",
@@ -4932,14 +4868,6 @@
                 "id": "8eb74be3-2d20-4b54-a109-abdae4ad14b1",
                 "resourcePath": "objects\\BackOB1\\BackOB1.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "bc6c0d0c-8ac3-4376-94d2-46bcacb071c9",
-            "Value": {
-                "id": "3bcb9dce-599f-4b09-b23a-8a1c326146d9",
-                "resourcePath": "rooms\\rm_online_lobby\\rm_online_lobby.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -5375,14 +5303,6 @@
             }
         },
         {
-            "Key": "ceba32c8-002b-451c-95c0-7bc8d3575909",
-            "Value": {
-                "id": "fdfbaec0-d55d-42cf-80b5-f128e1a7f011",
-                "resourcePath": "rooms\\rm_1\\rm_1.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "cec2ab75-03bf-48b5-add8-2c4d0ceb662b",
             "Value": {
                 "id": "45955e31-8393-420c-a470-4bd538048c2d",
@@ -5532,14 +5452,6 @@
                 "id": "9d340fb5-6a1d-4ded-9689-983173725a2b",
                 "resourcePath": "sounds\\error\\error.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "d43dd694-3ca8-4184-ac18-db1ecb3ba564",
-            "Value": {
-                "id": "1a190f70-e4e5-4f9e-a633-f4c75a80baac",
-                "resourcePath": "rooms\\COOP_menu1\\COOP_menu1.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -6476,14 +6388,6 @@
                 "id": "3e55b7a9-75e1-40f9-9925-acf7ffd4ed0d",
                 "resourcePath": "scripts\\hex_to_real\\hex_to_real.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "ff251662-2615-4434-b894-a20cc60e5962",
-            "Value": {
-                "id": "472d733a-362a-49dc-9465-d6c2255b0a13",
-                "resourcePath": "rooms\\room20\\room20.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
