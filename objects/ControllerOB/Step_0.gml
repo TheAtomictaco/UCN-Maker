@@ -5,7 +5,7 @@ if !window_has_focus()
    }
 
 
-if(global.power_batt <= 0)
+if(ControllerOB.powerBat <= 0)
 {
 	ControllerOB.tool = 6;
 }

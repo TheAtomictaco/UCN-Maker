@@ -11,7 +11,7 @@ if(global.office == "Office")
 	/// @DnDParent : 00BD2B0E
 	/// @DnDArgument : "var" "global.power_batt"
 	/// @DnDArgument : "op" "3"
-	if(global.power_batt <= 0)
+	if(ControllerOB.powerBat <= 0)
 	{
 		/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 		/// @DnDVersion : 1

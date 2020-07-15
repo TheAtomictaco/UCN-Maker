@@ -35,11 +35,11 @@ audio_listener_orientation(0, -1, 0, 0, 0, -1);
 //Power Ups
 if(global.batt_use = false)
 {
-	global.power_batt = 100;
+	ControllerOB.powerBat = 100;
 }
 else
 {
-	global.power_batt = 102;
+	ControllerOB.powerBat = 102;
 	global.battery += -1;
 }
 if(global.freeze_use = false)

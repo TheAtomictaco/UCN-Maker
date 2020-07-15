@@ -9,7 +9,7 @@ x = camera_get_view_x(view_camera[0]) + 650;
 /// @DnDHash : 6D0F9935
 /// @DnDArgument : "var" "global.power_batt"
 /// @DnDArgument : "op" "3"
-if(global.power_batt <= 0)
+if(ControllerOB.powerBat <= 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

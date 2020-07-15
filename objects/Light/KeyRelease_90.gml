@@ -1,4 +1,4 @@
-if(!(global.power_batt == 0))
+if(!(ControllerOB.powerBat == 0))
 {
 
 	audio_play_sound(flashclick2, 0, 0);

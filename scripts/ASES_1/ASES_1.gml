@@ -16,7 +16,7 @@ if(global.mode == "nightguard")
 		ControllerOB.sndMeter += 1;
 	}
 
-	if(!(global.power_batt <= 0))
+	if(!(ControllerOB.powerBat <= 0))
 	{
 		audio_play_sound(blip, 0, 0);
 	

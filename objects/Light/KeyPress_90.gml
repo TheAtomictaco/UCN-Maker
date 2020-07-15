@@ -1,4 +1,4 @@
-if(global.power_batt > 0)
+if(ControllerOB.powerBat > 0)
 {
 	
 

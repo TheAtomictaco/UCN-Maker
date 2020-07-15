@@ -334,7 +334,7 @@ if(global.draintimer >= global.border)
 	/// @DnDArgument : "expr" "-1"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "global.power_batt"
-	global.power_batt += -1;
+	ControllerOB.powerBat += -1;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -357,7 +357,7 @@ global.draintimer += 1;
 /// @DnDHash : 7F618F1C
 /// @DnDArgument : "var" "global.power_batt"
 /// @DnDArgument : "op" "3"
-if(global.power_batt <= 0)
+if(ControllerOB.powerBat <= 0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

@@ -12,7 +12,7 @@ if(global.mode == "nightguard")
 	/// @DnDArgument : "var" "global.power_batt"
 	/// @DnDArgument : "not" "1"
 	/// @DnDArgument : "op" "3"
-	if(!(global.power_batt <= 0))
+	if(!(ControllerOB.powerBat <= 0))
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1

@@ -1,6 +1,6 @@
 if(global.jumpscare == 0)
 {
-	if(!(global.power_batt <= 0))
+	if(!(ControllerOB.powerBat <= 0))
 	{
 		if(ControllerOB.mask == 0)
 		{

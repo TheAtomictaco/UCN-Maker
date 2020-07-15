@@ -1,6 +1,6 @@
 if(global.mode == "nightguard")
 {
-	if(!(global.power_batt <= 0))
+	if(!(ControllerOB.powerBat <= 0))
 	{
 		if(ControllerOB.leftDoor == 1)
 		{

@@ -1,6 +1,6 @@
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-if(global.power_batt > 0)
+if(ControllerOB.powerBat > 0)
 {
 	if(global.jumpscare == 0)
 	{
@@ -8,7 +8,7 @@ if(global.power_batt > 0)
 		draw_sprite(_1213, 0, 50, 50);
 		draw_text_transformed(120, 50, string(global.fazcoin) + "", 1, 1, 0);
 
-		draw_text_transformed(110, 945, string(global.power_batt) + string("%"), 1.2, 1.2, 0);
+		draw_text_transformed(110, 945, string(ControllerOB.powerBat) + string("%"), 1.2, 1.2, 0);
 
 		draw_usage = (global.drainpower / 9) * 100;
 		draw_healthbar(20, 970, 250, 1000, draw_usage, c_black, c_white, c_white, 0, true, true);

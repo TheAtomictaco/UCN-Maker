@@ -36,7 +36,7 @@ if global.debug = "on"
 	
 	if command = "outage"
 	{
-		global.power_batt = 0
+		ControllerOB.powerBat = 0
 		if(global.screen) = "on"
 		{
 			window_set_fullscreen(true);

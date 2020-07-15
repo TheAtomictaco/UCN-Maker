@@ -59,7 +59,7 @@ if(ControllerOB.vent == 1)
 	/// @DnDParent : 3EABB3D5
 	/// @DnDArgument : "var" "global.power_batt"
 	/// @DnDArgument : "op" "3"
-	if(global.power_batt <= 0)
+	if(ControllerOB.powerBat <= 0)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1

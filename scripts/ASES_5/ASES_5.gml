@@ -22,7 +22,7 @@ if(global.mode == "nightguard")
 		ControllerOB.tool = 5;
 	}
 
-	if(!(global.power_batt <= 0))
+	if(!(ControllerOB.powerBat <= 0))
 	{
 		audio_play_sound(blip, 0, 0);
 		ControllerOB.tool = 5;
