@@ -1567,6 +1567,14 @@
             }
         },
         {
+            "Key": "3d82bf93-46f1-483f-8fc5-44f77964f2f0",
+            "Value": {
+                "id": "68be0dc3-1783-4859-b403-23265c958953",
+                "resourcePath": "sprites\\loginBar\\loginBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d989d0c-97dc-4071-8fc5-715e41bb1502",
             "Value": {
                 "id": "3f7e7805-40c8-46c3-8113-472ae14aeca8",
@@ -1955,6 +1963,14 @@
             "Value": {
                 "id": "fd59af96-8c2c-46ae-8df3-a09feef16d86",
                 "resourcePath": "sprites\\VentLeftSP1\\VentLeftSP1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4c2a6244-395c-41f4-89ae-ede5fede252f",
+            "Value": {
+                "id": "5b1c716b-0090-4d35-9519-b59c97617f85",
+                "resourcePath": "sprites\\LoginBack\\LoginBack.yy",
                 "resourceType": "GMSprite"
             }
         },
