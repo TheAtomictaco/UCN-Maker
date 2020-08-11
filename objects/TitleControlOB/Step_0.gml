@@ -76,5 +76,18 @@ if(global.menuSel == "Update")
 
 	}
 }
+if(global.menuSel == "Play")
+{
+	var l3BDA9812_0 = false;
+	l3BDA9812_0 = instance_exists(BackButton);
+	if(!l3BDA9812_0)
+	{
+
+	instance_create_layer(128, 704, "Button", BackButton);
+	instance_create_layer(128, 320, "Button", Single_button);
+	instance_create_layer(128, 416, "Button", coop_button);
+	}
+}
+
 
 

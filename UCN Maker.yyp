@@ -1127,14 +1127,6 @@
             }
         },
         {
-            "Key": "2fbbe795-7c52-4e95-b3a9-1c98dcf57451",
-            "Value": {
-                "id": "1fdb2844-74ea-4f82-84b5-44c6bf301450",
-                "resourcePath": "objects\\VSButtonOB\\VSButtonOB.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "30038042-1636-4c71-bc44-ae937291b217",
             "Value": {
                 "id": "d6416d5f-4013-4e6e-b45a-46616942c33b",
@@ -1235,14 +1227,6 @@
             "Value": {
                 "id": "57088d96-eaf0-44bb-9f0a-94408881f927",
                 "resourcePath": "objects\\ExportOB\\ExportOB.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "33602d6d-7414-4f9f-9d2b-fb4182b87a59",
-            "Value": {
-                "id": "eef1b147-fd80-461b-8b4b-78ac05800c6c",
-                "resourcePath": "objects\\TurnTheme3\\TurnTheme3.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1795,14 +1779,6 @@
             "Value": {
                 "id": "ac2ef799-433c-481b-b3e2-1f9e71ad01d7",
                 "resourcePath": "objects\\Splash_Button\\Splash_Button.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "46420b4b-6483-41cb-860d-9ce017a79722",
-            "Value": {
-                "id": "9693c3fa-9092-44ed-9ae2-7213fce387d0",
-                "resourcePath": "objects\\TurnTheme2\\TurnTheme2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3143,14 +3119,6 @@
             }
         },
         {
-            "Key": "7be6f2e7-515e-48fc-a74c-50a86ad2cd9c",
-            "Value": {
-                "id": "f6ff7fa0-fe6f-40ad-8c73-6a122516f643",
-                "resourcePath": "objects\\CreditsButtonOB\\CreditsButtonOB.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7c18502c-12d6-44a9-bd20-f2d411f1048b",
             "Value": {
                 "id": "7d1703c1-be18-4049-92bc-c8e0bbe9b8a5",
@@ -3924,14 +3892,6 @@
                 "id": "8d00aeda-dc91-491d-98cb-be425b973ce3",
                 "resourcePath": "datafiles_yy\\game_data\\theme\\logo.png.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "9a55432c-4e4e-4849-805c-9b19bb980252",
-            "Value": {
-                "id": "41800545-c798-42bb-a764-4a74c6eb89ed",
-                "resourcePath": "objects\\Eggs_Button\\Eggs_Button.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -4919,14 +4879,6 @@
             }
         },
         {
-            "Key": "c11a42c9-4f5b-453f-90d5-65b382d5f82a",
-            "Value": {
-                "id": "1dc9b822-c0f1-4b46-a561-c79ffcf246ff",
-                "resourcePath": "objects\\TurnTheme4\\TurnTheme4.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c1b23f2b-f1f6-4ddc-88a5-6b9333685502",
             "Value": {
                 "id": "66d2776a-7d9e-4648-bbb3-3b3ee8bab916",
@@ -4995,14 +4947,6 @@
             "Value": {
                 "id": "2f465cb2-b765-41bd-9b9b-9691f7db8bb2",
                 "resourcePath": "objects\\VentOB\\VentOB.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "c6107635-2462-4fa5-8765-7a346e31d9be",
-            "Value": {
-                "id": "b256dafd-a323-4a76-b1a3-5d61ba00f72d",
-                "resourcePath": "objects\\TurnTheme1\\TurnTheme1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -5404,14 +5348,6 @@
                 "id": "9d340fb5-6a1d-4ded-9689-983173725a2b",
                 "resourcePath": "sounds\\error\\error.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "d44b8287-f9ca-463a-a5cd-7c09e8143ae1",
-            "Value": {
-                "id": "968705a6-5e1e-4049-bcc8-9039ca509437",
-                "resourcePath": "objects\\scroll_Button\\scroll_Button.yy",
-                "resourceType": "GMObject"
             }
         },
         {

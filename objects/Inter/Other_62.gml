@@ -36,7 +36,7 @@ ini_close();
 else
 {
 show_debug_message("THE USER’S CREDENTIALS ARE INVALID!");
-show_message("Failed to log in :(")
+show_debug_message("Failed to log in :(")
 global.GJ_name = ""
 global.GJ_pass = ""
 instance_destroy()

@@ -16,16 +16,16 @@ draw_sprite(TransBask, 0, 960, 540);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
 /// @DnDHash : 0A7888C1
+/// @DnDDisabled : 1
 /// @DnDArgument : "x" "920"
 /// @DnDArgument : "y" "360"
 /// @DnDArgument : "xscale" "1.8"
 /// @DnDArgument : "yscale" "1.8"
 /// @DnDArgument : "caption" ""Warning!""
-draw_text_transformed(920, 360, string("Warning!") + "", 1.8, 1.8, 0);
+
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 46DB6D09
+/// @DnDDisabled : 1
 /// @DnDArgument : "code" "$(13_10)draw_text_ext_transformed(920,480,global.warning,50,800,1,1,0)"
-
-draw_text_ext_transformed(920,480,global.warning,50,800,1,1,0)

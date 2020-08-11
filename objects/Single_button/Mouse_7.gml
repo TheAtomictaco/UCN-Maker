@@ -1,6 +1,4 @@
-
-
 Click_Script()
-
-FadeRoom(Choose_mode)
+instance_destroy(BackButton)
+global.menuSel = "SinglePlayer"
 
