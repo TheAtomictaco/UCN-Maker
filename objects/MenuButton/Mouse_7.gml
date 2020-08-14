@@ -18,5 +18,5 @@ audio_stop_all();
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 794C1A5D
-/// @DnDArgument : "code" "BackToSelection()"
-BackToSelection()
+/// @DnDArgument : "code" "FadeRoom(SelectRoom)"
+FadeRoom(SelectRoom)

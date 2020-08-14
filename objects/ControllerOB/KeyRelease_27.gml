@@ -10,7 +10,7 @@ if(global.jumpscare == 0)
 		if global.coop_type = "host"
 		{
 			global.return_menu = 1
-			BackToSelection()
+			FadeRoom(SelectRoom)
 		}
 	}
 }
