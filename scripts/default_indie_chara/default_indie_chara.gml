@@ -1,1 +1,0 @@
-global.hover = "none";
