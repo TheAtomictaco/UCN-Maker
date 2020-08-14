@@ -65,6 +65,17 @@ if(global.menuSel == "SinglePlayer")
 	instance_create_layer(128, 320, "Button", Pack_ButtonControl);
 	}
 }
+if(global.menuSel == "Co-op")
+{
+	var l3BDA9812_0 = false;
+	l3BDA9812_0 = instance_exists(BackButton);
+	if(!l3BDA9812_0)
+	{
+	instance_create_layer(128, 320, "Button", CreateLobbyButton);
+	instance_create_layer(128, 608, "Button", BackButton);
+
+	}
+}
 if(global.menuSel == "Update")
 {
 	var l3BDA9812_0 = false;

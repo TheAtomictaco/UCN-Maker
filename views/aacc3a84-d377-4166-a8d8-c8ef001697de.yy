@@ -13,7 +13,9 @@
         "940eb752-786c-443f-a7cb-47f917014135",
         "f6328208-84af-4428-8f80-35e518ece371",
         "7f80bd4f-1bf8-4405-954b-4dff115cc301",
-        "acd7a960-8aa2-4f32-95d8-1a12c4826db7"
+        "acd7a960-8aa2-4f32-95d8-1a12c4826db7",
+        "3484cdd8-fc6a-4739-bed4-c56a34d66700",
+        "f1d1b511-6729-478d-b81d-0c0a8a39095a"
     ],
     "filterType": "GMScript",
     "folderName": "AssetSC",
