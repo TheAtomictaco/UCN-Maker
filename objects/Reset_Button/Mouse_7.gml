@@ -1,0 +1,6 @@
+audio_stop_all()
+file_delete("theme_config")
+file_delete("save.ini")
+file_delete("data.ini")
+directory_destroy(game_save_id+ "/theme_data")
+game_restart()
