@@ -975,6 +975,14 @@
             }
         },
         {
+            "Key": "292fb9a8-ff84-45d2-a3a0-dcaf4b06fc8f",
+            "Value": {
+                "id": "56f43c61-d682-400f-8463-676994add783",
+                "resourcePath": "objects\\MonitorUpwarning\\MonitorUpwarning.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "29b1dc0d-77e1-4677-86e2-cf30c2febc04",
             "Value": {
                 "id": "559fdad6-82b3-4fde-be8c-78efc2badde8",
@@ -4255,6 +4263,14 @@
             }
         },
         {
+            "Key": "afce0d51-c69e-4294-9308-d82e6583eca7",
+            "Value": {
+                "id": "1f11f525-2a75-4913-b3da-e078d1bf1975",
+                "resourcePath": "objects\\WarningControl\\WarningControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "afceb7a8-5673-4f8c-a344-de55083d4236",
             "Value": {
                 "id": "595a1db1-0ae3-4351-97c7-e80ea5d2378b",
@@ -5492,6 +5508,14 @@
                 "id": "4db6122d-59fc-44c1-80d4-f04988e37e77",
                 "resourcePath": "sounds\\block67\\block67.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e75533a2-82a1-4202-b872-b4ff43373940",
+            "Value": {
+                "id": "ada432d3-690b-4a50-833b-eb7efa783acb",
+                "resourcePath": "rooms\\WarningRM\\WarningRM.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

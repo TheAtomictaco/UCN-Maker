@@ -1,6 +1,7 @@
 //Deletes patch file if it exsists so that no conflicts will occur
 file_delete("patchmodes.txt");
 directory_destroy("temp")
+directory_destroy("theme_data/temp")
 //Set Variables
 INT_script()
 global.room_option = ""
@@ -38,6 +39,6 @@ if(!(global.GJ_name == ""))
 
 //fade into the warning screen
 	instance_create_layer(0, 0, "Instances", Main_controll);
-	FadeRoom(WarningRoom)
+	FadeRoom(WarningRM)
 	exit;
 

@@ -13,9 +13,7 @@ if(global.menuSel == "main")
 
 	instance_create_layer(128, 608, "Button", Options);
 
-	instance_create_layer(128, 704, "Button", ExtrasButton);
-
-	instance_create_layer(128, 800, "Button", QuitButtonOB);
+	instance_create_layer(128, 704, "Button", QuitButtonOB);
 
 	}
 	rousr_dissonance_set_state("Main menu")
