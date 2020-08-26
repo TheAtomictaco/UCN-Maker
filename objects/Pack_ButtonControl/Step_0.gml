@@ -1,10 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 330DD21A
-/// @DnDArgument : "code" "if global.menuSel = "SinglePlayer"{show_debug_message("SinglePlayer")}$(13_10)$(13_10)else$(13_10){$(13_10)	instance_destroy()	$(13_10)}$(13_10)"
-if global.menuSel = "SinglePlayer"{show_debug_message("SinglePlayer")}
+/// @DnDArgument : "code" "if global.menuSel != "SinglePlayer"$(13_10)$(13_10){$(13_10)	instance_destroy()	$(13_10)}$(13_10)$(13_10)$(13_10)"
+if global.menuSel != "SinglePlayer"
 
-else
 {
 	instance_destroy()	
 }

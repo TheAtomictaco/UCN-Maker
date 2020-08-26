@@ -1,8 +1,10 @@
 //Deletes patch file if it exsists so that no conflicts will occur
 file_delete("patchmodes.txt");
-directory_destroy("temp")
+
 directory_destroy("theme_data/temp")
 //Set Variables
+nameVar = environment_get_variable("USERNAME");
+global.saveFolder = "C:\Users\\"+string(nameVar)+"\\AppData\\Roaming\\UCN_Maker"
 INT_script()
 global.room_option = ""
 //load texture files and audio
@@ -11,9 +13,26 @@ sound_int()
 
 ////INT Scripts
 //Make and install a zip file of the default theme
-Default_Theme_Zip()
-zip_unzip("temp\\theme.zip","theme_data/Default")
 
+
+file = file_find_first("game_data\\*.zip", 0);
+
+ziplist = ""
+while (file != "")
+{
+	ziplist += "Theme"+string(file)
+	zip_unzip("game_data/"+string(file),"temp/theme/")
+	ini_open("temp/theme/config.ini")
+	name = ini_read_string("name","","Theme")
+	ini_close()
+	zip_unzip("game_data/"+string(file),"theme_data/"+string(name))
+	
+	file = file_find_next();
+}
+ini_open("names.ini")
+ini_write_string(ziplist,ziplist,ziplist)
+ini_write_string(program_directory,"","")
+ini_close()
 //loadgame settings
 Loadgame()
 savegame()

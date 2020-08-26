@@ -1,4 +1,4 @@
-sprite_index = _6796;
+sprite_index = FrameHoverSP;
 image_index = 0;
 
 if(global.chal == "")

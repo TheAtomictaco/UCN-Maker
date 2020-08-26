@@ -271,14 +271,6 @@
             }
         },
         {
-            "Key": "0d803dc9-aa23-4695-bc28-84cb22adc74a",
-            "Value": {
-                "id": "a3a9b9a2-391a-4e94-8c95-a2dbc6ad7ed6",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\click.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "0e57b479-fc12-414b-a628-21f6714a4c28",
             "Value": {
                 "id": "a246553e-bf67-4a36-ada2-0c45563b57a8",
@@ -348,6 +340,14 @@
                 "id": "18d72c61-782d-443f-8a4e-ca1e7206c01a",
                 "resourcePath": "sprites\\arrow_right\\arrow_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "133b7f66-7a3d-461c-b9c6-9adb679b469c",
+            "Value": {
+                "id": "865119e0-1d79-48b2-b95d-66401d125f10",
+                "resourcePath": "datafiles_yy\\game_data\\Default.zip.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -575,14 +575,6 @@
             }
         },
         {
-            "Key": "1aa197b4-077d-47ea-b358-dfe78074e35d",
-            "Value": {
-                "id": "08477431-043e-44c4-9024-677e71840508",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\music2.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "1bc29e39-0ce1-46f8-b0af-18a0a8711a49",
             "Value": {
                 "id": "f457967b-ee18-4488-beb9-9fc228de6d51",
@@ -628,14 +620,6 @@
                 "id": "1880f5dc-1c82-47a3-8c35-5b4f2643e89a",
                 "resourcePath": "scripts\\TitlePicScript\\TitlePicScript.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "1dfec784-8d5b-43a0-80f0-cdd0f334a66b",
-            "Value": {
-                "id": "6ca4fef6-be25-49e3-b821-955f60cafa66",
-                "resourcePath": "objects\\nexttext\\nexttext.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1063,14 +1047,6 @@
             }
         },
         {
-            "Key": "30038042-1636-4c71-bc44-ae937291b217",
-            "Value": {
-                "id": "d6416d5f-4013-4e6e-b45a-46616942c33b",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\splash.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "300dd75d-d9fc-4d33-8077-b744690f9169",
             "Value": {
                 "id": "c1773666-9bb8-4d69-981f-ac4e873077d4",
@@ -1180,14 +1156,6 @@
                 "id": "2e34d88c-3ee8-4422-b744-6c152c5b8efa",
                 "resourcePath": "views\\33bd1c4e-7eb8-4876-8277-12ca55a35b1f.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "33e5600b-a77b-4d4b-b579-7573a459c3e4",
-            "Value": {
-                "id": "4f8ec18c-992c-415b-94d7-bf45f0e9c572",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\theme1.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1372,14 +1340,6 @@
                 "id": "dcb6b03b-cf1e-4a57-9f1f-f87537b98203",
                 "resourcePath": "sprites\\MapSP\\MapSP.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "3b58dd1f-049e-4fd3-b1cd-5801af94162b",
-            "Value": {
-                "id": "86f73276-eae5-4112-809f-c0d55b0303d6",
-                "resourcePath": "objects\\Block\\Block.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1580,14 +1540,6 @@
                 "id": "0ef463e5-bfef-407a-98a6-7a5e29bd4ab4",
                 "resourcePath": "objects\\MaskButton\\MaskButton.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "4250a3a5-782b-404d-84ab-68f70b28f133",
-            "Value": {
-                "id": "d20731d5-5dbc-4e14-990a-7bf1b79335a3",
-                "resourcePath": "views\\4250a3a5-782b-404d-84ab-68f70b28f133.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1908,14 +1860,6 @@
                 "id": "ddce7297-a103-4c40-bba5-b05193bb11ca",
                 "resourcePath": "scripts\\rousr_dissonance_set_join_secret\\rousr_dissonance_set_join_secret.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "523a8328-df16-4a4d-bc18-9616b9aed4f6",
-            "Value": {
-                "id": "860c24a6-5445-40e1-9f76-e61b03016477",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\music1.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2255,14 +2199,6 @@
             }
         },
         {
-            "Key": "6033c012-a528-47b0-a81d-1e4c4bd795c1",
-            "Value": {
-                "id": "6eb5664b-8755-49e2-85fb-1e25ee7750ad",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\loading.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "60dd27cf-b347-45d6-8f66-1ac86c0a1445",
             "Value": {
                 "id": "f877fe22-18fc-478d-841a-25680f509c93",
@@ -2356,22 +2292,6 @@
                 "id": "22019686-b285-4ef5-b3e3-16a94a83747f",
                 "resourcePath": "scripts\\rousr_dissonance_handler_on_error\\rousr_dissonance_handler_on_error.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "640b3d1f-493d-48d0-b8a1-61741fefe883",
-            "Value": {
-                "id": "1bd5d5fb-6ae7-475b-aeb4-1e76694d1053",
-                "resourcePath": "objects\\Back_Option\\Back_Option.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "6440ff02-922f-4002-9d34-f5f00322fb46",
-            "Value": {
-                "id": "d8e1696c-92ad-4d5a-a5f2-04b62708d1fc",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\hover1.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3023,14 +2943,6 @@
             }
         },
         {
-            "Key": "83a8af34-93fb-4ab8-b577-26850108e3a2",
-            "Value": {
-                "id": "2bb58f67-6278-43b1-94da-5b2aa95f2da5",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\office.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "83be4ec5-eeb9-4711-822a-6928d09cf37b",
             "Value": {
                 "id": "702149be-4c9a-4ad4-8870-69420347a82a",
@@ -3463,14 +3375,6 @@
             }
         },
         {
-            "Key": "956c492e-35ea-451b-bbca-503b97005089",
-            "Value": {
-                "id": "c1f00573-6dcb-4ad0-91c1-4c69e5d81b11",
-                "resourcePath": "sounds\\GTA_V_WastedBusted_Sound_Effect\\GTA_V_WastedBusted_Sound_Effect.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "9689e06a-1f9d-4b7c-b8ce-825448155c88",
             "Value": {
                 "id": "18fc10d9-f518-46e2-829b-683b4cceef03",
@@ -3527,14 +3431,6 @@
             }
         },
         {
-            "Key": "9a25c9a4-1767-44cd-bc17-7c91b2bf4bd7",
-            "Value": {
-                "id": "8d00aeda-dc91-491d-98cb-be425b973ce3",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\logo.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "9a8ad502-ad42-4d44-9e5c-860e29c39e28",
             "Value": {
                 "id": "148d4ea4-aa88-4670-b8b4-69b0cb1ac7f6",
@@ -3564,14 +3460,6 @@
                 "id": "aacf90e4-5d60-49aa-9ec3-e5d1ec35c3a7",
                 "resourcePath": "views\\9b279f23-25b8-4b73-9708-54d65a90e827.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9b772c47-c399-451b-be45-fb245dbff290",
-            "Value": {
-                "id": "89fd792b-f1df-47d8-81b7-9c45a1a5d87e",
-                "resourcePath": "objects\\PreText\\PreText.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -3620,14 +3508,6 @@
                 "id": "c911c754-75af-4b8d-ac1e-3d69c4e776da",
                 "resourcePath": "rooms\\VersionInfo\\VersionInfo.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "9e835638-a239-4ef2-a4ce-58db8d62a490",
-            "Value": {
-                "id": "c3de041b-6f3f-4c90-9203-b206f809a584",
-                "resourcePath": "objects\\BackButton1\\BackButton1.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -4079,14 +3959,6 @@
             }
         },
         {
-            "Key": "b18fe9fb-e9d7-479d-a6b4-07578397dc6a",
-            "Value": {
-                "id": "65256046-5053-4ce1-9eee-b4c4a244c1a5",
-                "resourcePath": "objects\\Pan\\Pan.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b1aec78d-1ab6-4121-889b-ddfc909119a5",
             "Value": {
                 "id": "f41ec78d-a266-49e5-9843-1a5ccf1c33b8",
@@ -4236,14 +4108,6 @@
                 "id": "1c8d84e1-3da8-48e3-a8fd-772742534117",
                 "resourcePath": "scripts\\zip_close\\zip_close.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "b7940c0d-2867-4713-8f53-d49763c1bb0c",
-            "Value": {
-                "id": "067c5a96-0acf-4deb-bc43-96b6d3d719ec",
-                "resourcePath": "sprites\\Wasted\\Wasted.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -4439,6 +4303,14 @@
             }
         },
         {
+            "Key": "c1b4a8aa-6587-42d0-9cdc-c6e3ca8bec90",
+            "Value": {
+                "id": "b4ada295-a243-468e-81ab-fe944cda57a8",
+                "resourcePath": "paths\\path0\\path0.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "c23ef148-bdfd-4863-86c6-c8142902057d",
             "Value": {
                 "id": "50c0f0eb-d0c5-4950-a81d-e6e883aba8d6",
@@ -4468,6 +4340,14 @@
                 "id": "e060889b-e136-4848-996d-221637d8b2d6",
                 "resourcePath": "sprites\\openfolder\\openfolder.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c434244a-4c2b-49de-a4aa-046f185c9f23",
+            "Value": {
+                "id": "c93ec624-3dc4-45e2-8a55-28775109ffe3",
+                "resourcePath": "paths\\path1\\path1.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -4532,22 +4412,6 @@
                 "id": "3161831c-e6dc-43df-837c-b9044b87a0ad",
                 "resourcePath": "sprites\\_562\\_562.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c88aa07b-964c-4b9b-a771-0c705d060804",
-            "Value": {
-                "id": "defb930c-8b14-4ac1-8258-06b0b37a0515",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\font.ttf.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "c8a2d695-68c1-4b3a-a34e-d9c207ecb352",
-            "Value": {
-                "id": "c625b72e-0139-4fb7-a862-1190521a6673",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\title_logo.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -5348,14 +5212,6 @@
                 "id": "98e7c4c0-7a28-4cf6-8f31-beec30642999",
                 "resourcePath": "scripts\\date_from_unix\\date_from_unix.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "ecfe069f-8aa8-4e02-9532-dc0d48314887",
-            "Value": {
-                "id": "a2ba77db-74dc-41d6-ab2a-97f81fa03b03",
-                "resourcePath": "objects\\HostButtonOB\\HostButtonOB.yy",
-                "resourceType": "GMObject"
             }
         },
         {

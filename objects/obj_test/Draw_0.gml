@@ -1,4 +1,4 @@
-draw_set_font(fnt_test)
+draw_set_font(global.font1)
 var _x = 16, _y = 12, d = 32, path;
 //
 draw_tbutton(_x, _y, date_time_string(date_current_datetime()));

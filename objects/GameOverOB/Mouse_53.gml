@@ -3,9 +3,9 @@
 /// @DnDHash : 61D6B09D
 audio_stop_all();
 
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 235579BA
-/// @DnDArgument : "script" "BackToSelection"
-/// @DnDSaveInfo : "script" "5ddace9a-9602-4389-9073-4e3a6a777ed9"
-script_execute(BackToSelection);
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDVersion : 1
+/// @DnDHash : 46C33A23
+/// @DnDArgument : "room" "SelectRoom"
+/// @DnDSaveInfo : "room" "35426a49-f740-4cdb-8f4e-c069094d7321"
+room_goto(SelectRoom);

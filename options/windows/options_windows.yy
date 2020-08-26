@@ -6,7 +6,7 @@
     "option_windows_allow_fullscreen_switching": true,
     "option_windows_borderless": false,
     "option_windows_company_info": "TakoByte",
-    "option_windows_copy_exe_to_dest": true,
+    "option_windows_copy_exe_to_dest": false,
     "option_windows_copyright_info": "TakoByte",
     "option_windows_description_info": "YoHello",
     "option_windows_disable_sandbox": true,
