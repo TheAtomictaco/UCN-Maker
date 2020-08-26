@@ -9,7 +9,7 @@ if global.theme_mode = 0
 }
 else
 {
-	global.theme_dir = "theme_data/"+string(global.theme_path)
+	global.theme_dir = "themes/"+string(global.theme_path)
 }
 ini_open(global.theme_dir +"/config.ini")
 LoadTheme()

@@ -6,7 +6,7 @@ mode = "name"
 name = ""
 name = get_string("Enter theme name","")
 
-var l150F999E_0 = file_exists("theme_data/"+string(name)+"/config.ini");
+var l150F999E_0 = file_exists("themes/"+string(name)+"/config.ini");
 if(l150F999E_0)
 {
 		//Does nothing
@@ -16,7 +16,7 @@ else
 if name != ""
 {
 
-	zip_unzip("temp\\theme.zip","theme_data/"+string(name))
+	zip_unzip("temp\\theme.zip","themes/"+string(name))
 	global.theme_path = name
 	ini_close();
 	ThemeStart()

@@ -13,7 +13,7 @@ mode = "create"
 x_add = 600
 y_add = 224
 
-file = file_find_first("theme_data\\*", fa_directory);
+file = file_find_first("themes\\*", fa_directory);
 
 
 while (file != "")

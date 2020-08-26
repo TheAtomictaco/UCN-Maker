@@ -9,7 +9,7 @@ if file != ""
 	if name != "Theme"
 	{
 		ini_close()
-		var l150F999E_0 = file_exists("theme_data/"+string(name)+"/config.ini");
+		var l150F999E_0 = file_exists("themes/"+string(name)+"/config.ini");
 		if(l150F999E_0)
 		{
 			//Does nothing
@@ -17,7 +17,7 @@ if file != ""
 	else
 	{
 		ini_close();
-		zip_unzip(file,"theme_data/"+string(name))
+		zip_unzip(file,"themes/"+string(name))
 		global.theme_path = name
 	}
 		savegame()

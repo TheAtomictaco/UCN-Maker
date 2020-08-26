@@ -7,7 +7,7 @@ file = get_save_filename("Theme Zip|*.zip", string(global.theme_path));
 if file != ""
 {
 
-dir = "theme_data/"+string(global.theme_path)+"/"
+dir = "themes/"+string(global.theme_path)+"/"
 var _zip = zip_open();
 
 zip_add_file(_zip, dir+"office.png","office.png");
