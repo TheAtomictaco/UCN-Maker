@@ -343,14 +343,6 @@
             }
         },
         {
-            "Key": "133b7f66-7a3d-461c-b9c6-9adb679b469c",
-            "Value": {
-                "id": "865119e0-1d79-48b2-b95d-66401d125f10",
-                "resourcePath": "datafiles_yy\\game_data\\Default.zip.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "1345ff4f-e633-4e18-a88f-dd7f1b1984d8",
             "Value": {
                 "id": "21f3edab-9fcc-42a8-87f5-e1cac3c031ac",
@@ -972,6 +964,14 @@
                 "id": "d4d8fd11-1251-4149-a292-6cb79ea50086",
                 "resourcePath": "sprites\\Set20\\Set20.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e45a931-f291-40d9-9267-2e358d4119e1",
+            "Value": {
+                "id": "676d6565-6a4b-4d23-9d72-339cd6f41f57",
+                "resourcePath": "views\\2e45a931-f291-40d9-9267-2e358d4119e1.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2076,6 +2076,14 @@
                 "id": "c401757e-8b72-42a4-84cf-23ea0c6892a9",
                 "resourcePath": "rooms\\LoadGameroom\\LoadGameroom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5d323007-2bc7-449d-a8ac-7651f3417a94",
+            "Value": {
+                "id": "5f02ce98-ecaa-48c9-96c7-96e86df310ac",
+                "resourcePath": "notes\\note0.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -5300,6 +5308,14 @@
                 "id": "1ec79bed-2122-4fb6-a83c-0cf42a9d35d6",
                 "resourcePath": "views\\f8cf1c24-d727-440a-ad94-1415c66f3cba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f8ddbf36-f409-477c-bf86-185d5f7eedf8",
+            "Value": {
+                "id": "b82b988b-2804-4f58-bdaa-0109222c22d4",
+                "resourcePath": "datafiles_yy\\game_data\\theme\\Default.mut.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

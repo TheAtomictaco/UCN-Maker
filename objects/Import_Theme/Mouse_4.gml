@@ -1,6 +1,6 @@
 mode = "name"
 var file
-file = get_open_filename_ext(".zip","Theme",working_directory,"Choose Theme zip")
+file = get_open_filename_ext("UCN Maker Theme|*.mut","Theme",working_directory,"Choose Theme zip")
 if file != ""
    {
 	zip_unzip(file,"temp/theme//")

@@ -14,7 +14,7 @@ sound_int()
 //Make and install a zip file of the default theme
 
 
-file = file_find_first("game_data\\*.zip", 0);
+file = file_find_first("game_data\\theme\\*.mut", 0);
 while (file != "")
 {
 
