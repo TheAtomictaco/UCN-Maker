@@ -1,7 +1,3 @@
-
-
-
-
 if(global.start == 1)
 {
 	instance_destroy();
@@ -21,23 +17,11 @@ if(global.menu == "office")
 if(!(global.menu == "default"))
 {
 	with(Show_char_InfoOB) instance_destroy();
-
 	with(Info_Button) instance_destroy();
 	with(name_Button) instance_destroy();
-
 	with(OfficesButton) instance_destroy();
-
 	with(PowerButton) instance_destroy();
-
 	with(ChalButton) instance_destroy();
-	
-	with(SaveOB) instance_destroy();
-	
-	with(Save_as_ob) instance_destroy();
-	
-	with(LoadOB) instance_destroy();
-	
-	with(Load_as_ob) instance_destroy();
 }
 
 if(global.menu == "default")
@@ -48,10 +32,6 @@ if(global.menu == "default")
 	{
 		instance_create_layer(1862, 160, "Instances", Info_Button);
 	}
-	
-	
-	if global.co_op = false or global.coop_type = "host"
-	{
 
 		var l099327E6_0 = false;
 		l099327E6_0 = instance_exists(GoButton);
@@ -66,11 +46,6 @@ if(global.menu == "default")
 		{
 			instance_create_layer(1776, 840, "Instances", ChalButton);
 		}
-	}
-	if global.co_op = false
-	{
-
-	}
 	
 	var l30682E7F_0 = false;
 	l30682E7F_0 = instance_exists(BackOB);
@@ -93,8 +68,7 @@ if(global.menu == "default")
 		instance_create_layer(1776, 790, "Instances", OfficesButton);
 	}
 
-	if global.co_op = false or global.coop_type = "host"
-	{
+
 		var l7D376AAD_0 = false;
 		l7D376AAD_0 = instance_exists(Preset_0);
 		if(!l7D376AAD_0)
@@ -123,7 +97,7 @@ if(global.menu == "default")
 			instance_create_layer(1776, 480, "Instances", Preset_20);
 		}
 
-	}
+
 
 	with(Ok_buton) instance_destroy();
 }

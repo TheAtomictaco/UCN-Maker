@@ -74,17 +74,7 @@ if(global.menuSel == "Co-op")
 
 	}
 }
-if(global.menuSel == "Update")
-{
-	var l3BDA9812_0 = false;
-	l3BDA9812_0 = instance_exists(UpdateController);
-	if(!l3BDA9812_0)
-	{
 
-	instance_create_layer(128, 320, "Button", UpdateController);
-
-	}
-}
 if(global.menuSel == "Play")
 {
 	var l3BDA9812_0 = false;

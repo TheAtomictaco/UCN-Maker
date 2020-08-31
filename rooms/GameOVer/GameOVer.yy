@@ -10,7 +10,7 @@
         "0810b4c1-4ba2-4729-af74-ea3e75c7113f",
         "b12ec51d-2f20-44b9-b589-c9340c3187f8"
     ],
-    "IsDnD": true,
+    "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",

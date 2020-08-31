@@ -11,7 +11,6 @@ global.theme = ini_read_string("save", "theme", "custom");
 global.debug = ini_read_string("save", "Debug", "off");
 global.gj_user = ini_read_string("save", "gj_user", "");
 global.gj_token = ini_read_string("save", "gj_token", "");
-global.message_tease = ini_read_string("save", "message_tease", "false");
 global.screen = ini_read_string("save","screen","on");
 global.m_name = ini_read_string("save","m_name","Player");
 global.theme_mode = ini_read_real("theme","theme_mode",1);

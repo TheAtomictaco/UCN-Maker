@@ -5087,14 +5087,6 @@
             }
         },
         {
-            "Key": "ede5cc25-c14f-4355-b2ef-617d91a8a5de",
-            "Value": {
-                "id": "bc1d5b9b-5d3c-4d6f-b29a-b798f4cdda56",
-                "resourcePath": "scripts\\LoadgameOLD\\LoadgameOLD.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "ee7f15fd-1594-4fbb-8ea1-82106b041a9e",
             "Value": {
                 "id": "270929df-bd5b-4908-9719-a3e28942d09b",
@@ -5465,7 +5457,6 @@
     ],
     "script_order": [
         "b1aec78d-1ab6-4121-889b-ddfc909119a5",
-        "ede5cc25-c14f-4355-b2ef-617d91a8a5de",
         "3bbf6d1c-0f18-4a07-ab9f-764997f9c5f7",
         "a096ff10-cce9-43dd-b04f-7927710bb443",
         "cc56f84f-f861-4f24-805b-5e30554fd0fb",
