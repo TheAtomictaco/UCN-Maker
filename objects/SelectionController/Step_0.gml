@@ -30,7 +30,7 @@ if(global.menu == "default")
 	l099327E6_0 = instance_exists(Info_Button);
 	if(!l099327E6_0)
 	{
-		instance_create_layer(1862, 160, "Instances", Info_Button);
+		instance_create_layer(1862, 60, "Instances", Info_Button);
 	}
 
 		var l099327E6_0 = false;
@@ -68,6 +68,13 @@ if(global.menu == "default")
 		instance_create_layer(1776, 790, "Instances", OfficesButton);
 	}
 
+
+		var l7D376AAD_0 = false;
+		l7D376AAD_0 = instance_exists(Preset_1);
+		if(!l7D376AAD_0)
+		{
+			instance_create_layer(1776, 160, "Instances", Preset_1);
+		}
 
 		var l7D376AAD_0 = false;
 		l7D376AAD_0 = instance_exists(Preset_0);

@@ -1967,6 +1967,14 @@
             }
         },
         {
+            "Key": "5a3887c2-80e0-4cb3-b0ff-ba4d726f6147",
+            "Value": {
+                "id": "db3e3ecd-6f94-4e61-8cda-428b831c0374",
+                "resourcePath": "sprites\\Add1SP\\Add1SP.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a99b41a-df1d-4ab2-a17f-f2218c6ecb23",
             "Value": {
                 "id": "78a484d3-8674-4f6c-9792-28828b65e841",
@@ -3188,6 +3196,14 @@
                 "id": "53a5d67f-d875-45bd-a8d4-a0214db196b5",
                 "resourcePath": "sounds\\jackinthebox\\jackinthebox.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "925aee41-fe9f-4f0d-8a46-5ca9b9cb5c21",
+            "Value": {
+                "id": "9d8290d5-5c8b-4553-91f3-e4ce69059a3e",
+                "resourcePath": "objects\\Preset_1\\Preset_1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4922,7 +4938,7 @@
             "Key": "e6e24e85-a5d8-4ec6-8b25-0f42a665354b",
             "Value": {
                 "id": "b2316193-43b2-4044-8733-d2e483123f37",
-                "resourcePath": "objects\\otherControlWait\\otherControlWait.yy",
+                "resourcePath": "objects\\SelectionController\\SelectionController.yy",
                 "resourceType": "GMObject"
             }
         },

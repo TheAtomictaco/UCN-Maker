@@ -2,7 +2,7 @@
     "id": "e6e24e85-a5d8-4ec6-8b25-0f42a665354b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "otherControlWait",
+    "name": "SelectionController",
     "eventList": [
         {
             "id": "642ca896-ea21-4a66-b481-ab3325a172ea",
