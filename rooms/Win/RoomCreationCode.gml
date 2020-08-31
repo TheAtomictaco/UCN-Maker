@@ -9,11 +9,10 @@ global.start_coop = 0
 
 draw_set_font(global.font1);
 
-if(global.mode == "nightguard")
-{
+
 	rousr_dissonance_set_state("Playing "+global.gamemode+" Mode")
 	rousr_dissonance_set_details("Winner!")
-}
+
 
 
 

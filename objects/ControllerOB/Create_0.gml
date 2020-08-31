@@ -85,10 +85,9 @@ if(global.theme == "custom")
 
 	}
 }
-if(global.mode == "nightguard")
-{
+
 	alarm_set(1, 1350);
-}
+
 
 audio_play_sound(global.randommusic, 0, 1);
 

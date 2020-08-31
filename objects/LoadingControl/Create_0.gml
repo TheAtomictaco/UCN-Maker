@@ -20,7 +20,4 @@ global.loadtime = 5;
 
 loading_volume = 1;
 
-if(global.mode == "nightguard")
-{
-	alarm_set(0, 30);
-}
+alarm_set(0, 30);

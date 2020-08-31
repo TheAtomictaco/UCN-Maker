@@ -98,8 +98,7 @@ if(ControllerOB.rightVent == 1)
 	}
 }
 
-if(global.mode == "nightguard")
-{
+
 	if(ControllerOB.mask == 1)
 	{
 		var l26C2F3AB_0 = false;
@@ -111,7 +110,7 @@ if(global.mode == "nightguard")
 			instance_create_layer(960, MouseFollower.y, "Instances", MaskOB);
 		}
 	}
-}
+
 if(global.win) = false
 {
 	if(!(global.jumpscare == 0))

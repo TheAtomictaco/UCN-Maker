@@ -1,5 +1,4 @@
-if(global.mode == "nightguard")
-{
+
 	if(!(ControllerOB.powerBat <= 0))
 	{
 		if(ControllerOB.leftDoor == 1)
@@ -23,4 +22,3 @@ if(global.mode == "nightguard")
 			}
 		}
 	}
-}

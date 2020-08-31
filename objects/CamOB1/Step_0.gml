@@ -111,42 +111,33 @@ if(global.cam == 5)
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 4FAB61B8
+		/// @DnDHash : 3F858A36
 		/// @DnDParent : 0D29DE6C
-		/// @DnDArgument : "var" "global.mode"
-		/// @DnDArgument : "value" ""nightguard""
-		if(global.mode == "nightguard")
+		/// @DnDArgument : "var" "global.force_static"
+		if(global.force_static == 0)
 		{
-			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
-			/// @DnDHash : 3F858A36
-			/// @DnDParent : 4FAB61B8
-			/// @DnDArgument : "var" "global.force_static"
-			if(global.force_static == 0)
-			{
-				/// @DnDAction : YoYo Games.Instances.Set_Alarm
-				/// @DnDVersion : 1
-				/// @DnDHash : 6BDE62BD
-				/// @DnDApplyTo : 81a490cf-1c22-4aa4-b6bf-d480b3943c72
-				/// @DnDParent : 3F858A36
-				/// @DnDArgument : "steps" "20"
-				/// @DnDArgument : "alarm" "10"
-				with(MainAIcontroller) {
-				alarm_set(10, 20);
-				
-				}
+			/// @DnDHash : 6BDE62BD
+			/// @DnDApplyTo : 81a490cf-1c22-4aa4-b6bf-d480b3943c72
+			/// @DnDParent : 3F858A36
+			/// @DnDArgument : "steps" "20"
+			/// @DnDArgument : "alarm" "10"
+			with(MainAIcontroller) {
+			alarm_set(10, 20);
 			
-				/// @DnDAction : YoYo Games.Instances.Set_Alarm
-				/// @DnDVersion : 1
-				/// @DnDHash : 20D69399
-				/// @DnDApplyTo : 81a490cf-1c22-4aa4-b6bf-d480b3943c72
-				/// @DnDParent : 3F858A36
-				/// @DnDArgument : "steps" "300"
-				/// @DnDArgument : "alarm" "11"
-				with(MainAIcontroller) {
-				alarm_set(11, 300);
-				
-				}
+			}
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
+			/// @DnDVersion : 1
+			/// @DnDHash : 20D69399
+			/// @DnDApplyTo : 81a490cf-1c22-4aa4-b6bf-d480b3943c72
+			/// @DnDParent : 3F858A36
+			/// @DnDArgument : "steps" "300"
+			/// @DnDArgument : "alarm" "11"
+			with(MainAIcontroller) {
+			alarm_set(11, 300);
+			
 			}
 		}
 	}
@@ -236,7 +227,7 @@ if(global.cam == 8)
 /// @DnDVersion : 1
 /// @DnDHash : 6DC411BB
 /// @DnDArgument : "var" "global.monitorboot"
-if(global.monitorboot == 0)
+if(ControllerOB.monitorboot == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
@@ -250,7 +241,7 @@ if(global.monitorboot == 0)
 /// @DnDHash : 12E4424A
 /// @DnDArgument : "var" "global.system"
 /// @DnDArgument : "not" "1"
-if(!(global.system == 0))
+if(!(ControllerOB.sysMenu == 0))
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

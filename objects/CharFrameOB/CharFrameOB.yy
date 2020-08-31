@@ -2,7 +2,7 @@
     "id": "896ec2f5-42d0-4284-b849-50d8cc749268",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "FramOB",
+    "name": "CharFrameOB",
     "eventList": [
         {
             "id": "9cdfcddc-29ab-4314-9ce0-e0c93c297e7f",

@@ -61,20 +61,6 @@ if(ControllerOB.vent == 1)
 	/// @DnDArgument : "op" "3"
 	if(ControllerOB.powerBat <= 0)
 	{
-		/// @DnDAction : YoYo Games.Common.If_Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 6DAA2247
-		/// @DnDParent : 7A2EA9A6
-		/// @DnDArgument : "var" "global.mode"
-		/// @DnDArgument : "not" "1"
-		/// @DnDArgument : "value" ""robot""
-		if(!(global.mode == "robot"))
-		{
-			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-			/// @DnDVersion : 1
-			/// @DnDHash : 461C8229
-			/// @DnDParent : 6DAA2247
-			instance_destroy();
-		}
+	
 	}
 }

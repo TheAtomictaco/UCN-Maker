@@ -11,17 +11,3 @@ image_alpha = 0;
 /// @DnDArgument : "yscale" "3.99"
 image_xscale = 3.99;
 image_yscale = 3.99;
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 234877BA
-/// @DnDArgument : "var" "global.mode"
-/// @DnDArgument : "value" ""robot""
-if(global.mode == "robot")
-{
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 72C74E50
-	/// @DnDParent : 234877BA
-	instance_destroy();
-}

@@ -3002,7 +3002,7 @@
             "Key": "896ec2f5-42d0-4284-b849-50d8cc749268",
             "Value": {
                 "id": "bb991b84-4ee2-42f6-8ec4-3c1204008bb6",
-                "resourcePath": "objects\\FramOB\\FramOB.yy",
+                "resourcePath": "objects\\CharFrameOB\\CharFrameOB.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -7,7 +7,3 @@ if(ControllerOB.powerBat <= 0)
 	instance_destroy();
 }
 
-if(global.mode == "robot")
-{
-	instance_destroy();
-}

@@ -57,17 +57,3 @@ if(!(ControllerOB.sysMenu == 2))
 	/// @DnDParent : 03C23454
 	instance_destroy();
 }
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 5AF5D6D1
-/// @DnDArgument : "var" "global.mode"
-/// @DnDArgument : "value" ""robot""
-if(global.mode == "robot")
-{
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 3A2D76EB
-	/// @DnDParent : 5AF5D6D1
-	instance_destroy();
-}
