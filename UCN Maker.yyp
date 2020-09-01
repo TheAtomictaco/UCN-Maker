@@ -2,7 +2,7 @@
     "id": "1a3e352a-29d1-4797-b6d5-03ee68379676",
     "modelName": "GMProject",
     "mvc": "1.0",
-    "IsDnDProject": true,
+    "IsDnDProject": false,
     "configs": [
         
     ],
@@ -4943,6 +4943,14 @@
             }
         },
         {
+            "Key": "e4850d14-e439-455d-9869-79d08968de89",
+            "Value": {
+                "id": "3ec0b116-1582-48db-8f69-d3970144f156",
+                "resourcePath": "scripts\\TimeSC\\TimeSC.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e50086ff-99bf-4caa-973c-61faa3b44cc6",
             "Value": {
                 "id": "320a2ed7-b184-4d95-af91-ba26d63e39fd",
@@ -5644,7 +5652,8 @@
         "f1d1b511-6729-478d-b81d-0c0a8a39095a",
         "88851996-aa73-4618-91f1-ee0deaea4f92",
         "54353957-70dd-4995-9392-7545435679fe",
-        "3d42bb6e-438a-4e5f-953e-7eb8ed5ac6d0"
+        "3d42bb6e-438a-4e5f-953e-7eb8ed5ac6d0",
+        "e4850d14-e439-455d-9869-79d08968de89"
     ],
     "tutorial": ""
 }
