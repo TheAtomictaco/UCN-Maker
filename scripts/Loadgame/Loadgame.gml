@@ -12,16 +12,12 @@ global.debug = ini_read_string("save", "Debug", "off");
 global.gj_user = ini_read_string("save", "gj_user", "");
 global.gj_token = ini_read_string("save", "gj_token", "");
 global.screen = ini_read_string("save","screen","on");
-global.m_name = ini_read_string("save","m_name","Player");
-global.theme_mode = ini_read_real("theme","theme_mode",1);
-global.theme_used = ini_read_real("theme","theme_used",0);
-global.new_tex = ini_read_string("save","new_tex","new");
+
+
+
 
 global.theme_path = ini_read_string("theme","theme_path","Default");
 global.pack_path = ini_read_string("pack","pack_path","Default");
 global.skip = ini_read_real("save","skip",0);
-///Challenge
-global.doki1 = ini_read_string("doki1", "", "false");
-global.doki2 = ini_read_string("doki2", "", "false");
-global.doki3 = ini_read_string("doki3", "", "false");
+
 ini_close();

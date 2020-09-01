@@ -2431,14 +2431,6 @@
             }
         },
         {
-            "Key": "6c94139e-fb33-4f24-86f4-b4a09d2236e3",
-            "Value": {
-                "id": "3c0cbdd8-205e-4954-ba97-219025cb2e21",
-                "resourcePath": "extensions\\formLESS_UI_Framework\\formLESS_UI_Framework.yy",
-                "resourceType": "GMExtension"
-            }
-        },
-        {
             "Key": "6d7b9e1f-4b27-4d80-8dde-2cf3d865d85e",
             "Value": {
                 "id": "6432e6c4-cec7-480e-b2a4-c1072536a3d5",
