@@ -4,6 +4,7 @@ file_delete("patchmodes.txt");
 
 directory_destroy("themes/temp")
 //Set Variables
+
 INT_script()
 global.room_option = ""
 //load texture files and audio
@@ -18,11 +19,11 @@ file = file_find_first("game_data\\theme\\*.mut", 0);
 while (file != "")
 {
 
-	zip_unzip("game_data/"+string(file),"temp/theme/")
+	zip_unzip("game_data/theme/"+string(file),"temp/theme/")
 	ini_open("temp/theme/config.ini")
 	name = ini_read_string("name","","Theme")
 	ini_close()
-	zip_unzip("game_data/"+string(file),"themes/"+string(name))
+	zip_unzip("game_data/theme/"+string(file),"themes/"+string(name))
 	
 	file = file_find_next();
 }
@@ -31,6 +32,7 @@ while (file != "")
 Loadgame()
 savegame()
 
+instance_create_layer(0, 0, "Instances", Main_controll);
 //start theme engine
 ThemeStart()
 
@@ -52,7 +54,7 @@ if(!(global.GJ_name == ""))
 
 //fade into the warning screen
 	directory_destroy("temp")
-	instance_create_layer(0, 0, "Instances", Main_controll);
+	
 	FadeRoom(WarningRM)
 	exit;
 

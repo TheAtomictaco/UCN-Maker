@@ -9,7 +9,7 @@ if global.theme = "custom"
 		x = 10
 		y = 900
 
-		sprite_index = global.custom_logo;
+		sprite_index = Main_controll.logo;
 	}	
 
 }

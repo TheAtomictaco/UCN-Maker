@@ -1575,6 +1575,14 @@
             }
         },
         {
+            "Key": "44e6f8ad-422c-4c81-b84b-816321198eb6",
+            "Value": {
+                "id": "de36a415-fe2d-4ecb-9253-d8f80789f152",
+                "resourcePath": "datafiles_yy\\game_data\\theme\\Default.mut.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "46985a75-aa7d-49e5-bc9d-4ccdfaa2440b",
             "Value": {
                 "id": "8d7b4223-8dff-4e26-9e99-cbb762e6dff1",
@@ -3175,6 +3183,14 @@
             }
         },
         {
+            "Key": "90657fd5-e986-402c-95ba-133462aaef86",
+            "Value": {
+                "id": "d5f784a7-88d2-4365-a4ac-4e2990b2f85d",
+                "resourcePath": "datafiles_yy\\game_data\\theme\\Steins; Gate.mut.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "9144a6be-c2bb-47bb-b875-a7e1cd162cf0",
             "Value": {
                 "id": "2da0e03a-8347-4d25-9793-efc9edd3b92d",
@@ -4287,6 +4303,14 @@
             }
         },
         {
+            "Key": "c6191104-d236-4367-8868-9197dc5fc9d0",
+            "Value": {
+                "id": "a1a001c0-1d27-4e82-a475-c9e9752590e4",
+                "resourcePath": "datafiles_yy\\game_data\\theme\\Diary.mut.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "c6382372-609c-4290-bcb7-67685836b671",
             "Value": {
                 "id": "f4514882-009e-406a-b028-8b7d3f6b2bcd",
@@ -5324,14 +5348,6 @@
                 "id": "1ec79bed-2122-4fb6-a83c-0cf42a9d35d6",
                 "resourcePath": "views\\f8cf1c24-d727-440a-ad94-1415c66f3cba.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f8ddbf36-f409-477c-bf86-185d5f7eedf8",
-            "Value": {
-                "id": "b82b988b-2804-4f58-bdaa-0109222c22d4",
-                "resourcePath": "datafiles_yy\\game_data\\theme\\Default.mut.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

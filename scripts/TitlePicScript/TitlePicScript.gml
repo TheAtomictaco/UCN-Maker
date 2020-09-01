@@ -8,7 +8,7 @@ if(global.theme == "custom")
 	if global.title_use = 1
 	{
 
-		sprite_index = global.custom_title_logo;
+		sprite_index = Main_controll.title_logo;
 		x = 0
 		y = 0
 	}

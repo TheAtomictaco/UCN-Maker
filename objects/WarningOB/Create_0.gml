@@ -13,6 +13,6 @@ if(global.theme == "custom")
 	if global.splash_use = 1
 	{
 	
-		sprite_index = global.custom_splash;
+		sprite_index = Main_controll.splash;
 	}
 }

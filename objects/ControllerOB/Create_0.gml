@@ -126,7 +126,7 @@ if global.theme = "custom"
 	{
 		with(OficeBak) {
 
-		sprite_index = global.custom_office;
+		sprite_index = Main_controll.office;
 		}
 	}
 }

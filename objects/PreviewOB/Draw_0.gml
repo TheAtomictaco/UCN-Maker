@@ -38,7 +38,7 @@ draw_text(222, 460, string("Logo") + "");
 /// @DnDArgument : "xscale" "0.3"
 /// @DnDArgument : "yscale" "0.3"
 /// @DnDArgument : "sprite" "global.custom_title_logo"
-draw_sprite_ext(global.custom_title_logo, 0, 60, 80, 0.3, 0.3, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
+draw_sprite_ext(Main_controll.title_logo, 0, 60, 80, 0.3, 0.3, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
@@ -48,7 +48,7 @@ draw_sprite_ext(global.custom_title_logo, 0, 60, 80, 0.3, 0.3, 0, $FFFFFFFF & $f
 /// @DnDArgument : "xscale" "0.3"
 /// @DnDArgument : "yscale" "0.3"
 /// @DnDArgument : "sprite" "global.custom_splash"
-draw_sprite_ext(global.custom_splash, 0, 650, 80, 0.3, 0.3, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
+draw_sprite_ext(Main_controll.splash, 0, 650, 80, 0.3, 0.3, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
@@ -58,7 +58,7 @@ draw_sprite_ext(global.custom_splash, 0, 650, 80, 0.3, 0.3, 0, $FFFFFFFF & $ffff
 /// @DnDArgument : "xscale" "0.2"
 /// @DnDArgument : "yscale" "0.2"
 /// @DnDArgument : "sprite" "global.custom_office"
-draw_sprite_ext(global.custom_office, 0, 1240, 80, 0.2, 0.2, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
+draw_sprite_ext(Main_controll.office, 0, 1240, 80, 0.2, 0.2, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
@@ -68,4 +68,4 @@ draw_sprite_ext(global.custom_office, 0, 1240, 80, 0.2, 0.2, 0, $FFFFFFFF & $fff
 /// @DnDArgument : "xscale" "0.8"
 /// @DnDArgument : "yscale" "0.8"
 /// @DnDArgument : "sprite" "global.custom_logo"
-draw_sprite_ext(global.custom_logo, 0, 60, 500, 0.8, 0.8, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
+draw_sprite_ext(Main_controll.logo, 0, 60, 500, 0.8, 0.8, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
