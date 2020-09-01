@@ -31,6 +31,7 @@ global.custom_office = sprite_add(c_office,0,false,false,0,0);
 load =  global.theme_dir + "\\loading.png"
 global.custom_load = sprite_add(load,0,false,false,0,0);
 
+
 font_int()
 
 global.custom_theme1 = audio_create_stream(global.theme_dir + "/theme1.ogg")

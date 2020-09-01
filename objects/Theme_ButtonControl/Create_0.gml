@@ -8,21 +8,21 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1DA39C9A
-/// @DnDArgument : "code" "mode = "create"$(13_10)x_add = 600$(13_10)y_add = 224$(13_10)$(13_10)file = file_find_first("theme_data\\*", fa_directory);$(13_10)$(13_10)$(13_10)while (file != "")$(13_10){$(13_10)	y_add += 96$(13_10)	if y_add > 980$(13_10)	{$(13_10)		y_add = 320$(13_10)		x_add += 300$(13_10)	}$(13_10)	global.theme_name = file$(13_10)	sndBut = instance_create_layer(x_add, y_add, "Instances", custom_theme_buts);$(13_10)	sndBut.name = file$(13_10)$(13_10)	file = file_find_next();$(13_10)}$(13_10)"
+/// @DnDArgument : "code" "mode = "create"$(13_10)x_add = 600$(13_10)y_add = 100$(13_10)$(13_10)file = file_find_first("themes\\*", fa_directory);$(13_10)$(13_10)$(13_10)while (file != "")$(13_10){$(13_10)	y_add += 145$(13_10)	if y_add > 800$(13_10)	{$(13_10)		y_add = 245$(13_10)		x_add += 450$(13_10)	}$(13_10)	global.theme_name = file$(13_10)	sndBut = instance_create_layer(x_add, y_add, "Instances", custom_theme_buts);$(13_10)	sndBut.name = file$(13_10)$(13_10)	file = file_find_next();$(13_10)}$(13_10)"
 mode = "create"
 x_add = 600
-y_add = 224
+y_add = 100
 
 file = file_find_first("themes\\*", fa_directory);
 
 
 while (file != "")
 {
-	y_add += 96
-	if y_add > 980
+	y_add += 145
+	if y_add > 800
 	{
-		y_add = 320
-		x_add += 300
+		y_add = 245
+		x_add += 450
 	}
 	global.theme_name = file
 	sndBut = instance_create_layer(x_add, y_add, "Instances", custom_theme_buts);
