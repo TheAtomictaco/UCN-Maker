@@ -34,9 +34,9 @@ if (!audio_is_playing(l119E1E18_0))
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 56669EAF
 		/// @DnDParent : 52A14B3C
-		/// @DnDArgument : "path" "path1"
+		/// @DnDArgument : "path" "dd1"
 		/// @DnDArgument : "speed" "6"
-		/// @DnDSaveInfo : "path" "3d42e830-c3d6-40d2-9650-6d68026afbf4"
-		path_start(path1, 6, path_action_stop, false);
+		/// @DnDSaveInfo : "path" "c434244a-4c2b-49de-a4aa-046f185c9f23"
+		path_start(dd1, 6, path_action_stop, false);
 	}
 }

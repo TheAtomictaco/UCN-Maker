@@ -10,7 +10,7 @@ if(global.aiset_up <= 0)
 	/// @DnDHash : 70D206BF
 	/// @DnDParent : 272B9987
 	/// @DnDArgument : "code" "audio_play_sound(click2, 0, 0);$(13_10)ai_change = 1;$(13_10)AdjustAI()$(13_10)$(13_10)$(13_10)"
-	audio_play_sound(click2, 0, 0);
+	audio_play_sound(click2SND, 0, 0);
 	ai_change = 1;
 	AdjustAI()
 

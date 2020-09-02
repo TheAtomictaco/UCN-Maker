@@ -1,14 +1,14 @@
 draw_sprite_ext(monitorframe, 0, 960, 540, 4, 4, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text_transformed(1750, 80, string(Main_controll.monthName) + " " + string(Main_controll.myday), 1, 1, 0);
+	draw_text_transformed(1750, 70, string(Main_controll.monthName) + " " + string(Main_controll.myday), .8, .8, 0);
 	if Main_controll.myminute > 9
 	{
-		draw_text_transformed(1750, 150, string(Main_controll.displayHour) + ":" + string(Main_controll.myminute)+" "+ string(Main_controll.timeMode), 1, 1, 0);
+		draw_text_transformed(1750, 125, string(Main_controll.displayHour) + ":" + string(Main_controll.myminute)+" "+ string(Main_controll.timeMode), .8, .8, 0);
 	}
 	else
 	{
-		draw_text_transformed(1750, 150, string(Main_controll.displayHour) + " : 0" + string(Main_controll.myminute)+" "+ string(Main_controll.timeMode), 1, 1, 0);
+		draw_text_transformed(1750, 125, string(Main_controll.displayHour) + " : 0" + string(Main_controll.myminute)+" "+ string(Main_controll.timeMode), .8, .8, 0);
 	}
 
 if(!(global.menuSel == "main"))

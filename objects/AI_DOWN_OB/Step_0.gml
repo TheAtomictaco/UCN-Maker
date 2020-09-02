@@ -1,6 +1,6 @@
 if(global.aiset_down <= 0)
 {
-	audio_play_sound(click2, 0, 0);
+	audio_play_sound(click2SND, 0, 0);
 	
 	ai_change = -1;
 	AdjustAI()

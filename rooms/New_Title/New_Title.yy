@@ -11,7 +11,7 @@
         "4aaa1b49-98cd-4b1f-96df-f4582fccd039",
         "419649ed-f674-4e26-9804-783fbefdc6f8",
         "b5d86bc1-8ea6-4961-81cd-23947dffc47a",
-        "414455c5-41d7-4cc3-ab46-acb4817e9558"
+        "d664e7a8-8ed9-4845-9fc5-1fd7c8bca4fc"
     ],
     "IsDnD": true,
     "layers": [
@@ -96,9 +96,35 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Instances_2",
+            "id": "3801d6b0-e305-401c-bb46-43ada0ec59ef",
+            "depth": 300,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_3E13C147","id": "d664e7a8-8ed9-4845-9fc5-1fd7c8bca4fc","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3E13C147","objId": "1080f16a-8beb-4202-ab56-8214044ef70e","properties": null,"rotation": 0,"scaleX": 1.477323,"scaleY": 1.40708,"mvc": "1.1","x": 975.7614,"y": 65.79646}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Fade",
             "id": "549d15bc-215b-4a28-a528-6ff429a2eeca",
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -124,7 +150,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Button",
             "id": "58f4366d-13fb-414d-8175-dedad2b01e04",
-            "depth": 400,
+            "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -150,7 +176,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Button2",
             "id": "22f66195-f938-4a5c-bba8-cc27a918619d",
-            "depth": 500,
+            "depth": 600,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -160,7 +186,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_25325172","id": "414455c5-41d7-4cc3-ab46-acb4817e9558","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_25325172","objId": "1080f16a-8beb-4202-ab56-8214044ef70e","properties": null,"rotation": 0,"scaleX": 1.440149,"scaleY": 1.451327,"mvc": "1.1","x": 960.78,"y": 68.27434}
+
             ],
             "layers": [
 
@@ -176,7 +202,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Instances_1",
             "id": "5962b8be-49ba-4645-99cb-f446693444e1",
-            "depth": 600,
+            "depth": 700,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -205,7 +231,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 700,
+            "depth": 800,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

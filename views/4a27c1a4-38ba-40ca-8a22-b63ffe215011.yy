@@ -6,9 +6,7 @@
     "children": [
         "c550a2bc-eed5-4d2a-b624-2c82dbd65ba8",
         "5d0bcdd1-da11-4b1f-80e3-a62f39778b5b",
-        "1bc29e39-0ce1-46f8-b0af-18a0a8711a49",
-        "b6401012-553f-424c-bc92-6531b4a61a2a",
-        "dfcbef8e-ddf4-4516-a940-da82ece1259a"
+        "b6401012-553f-424c-bc92-6531b4a61a2a"
     ],
     "filterType": "GMScript",
     "folderName": "Extensions",

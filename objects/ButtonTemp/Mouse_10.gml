@@ -6,7 +6,7 @@ hover = true
 
 	else
 	{
-		audio_play_sound(click2, 0, 0);
+		audio_play_sound(click2SND, 0, 0);
 	}
 
 	image_blend = global.button_hover & $ffffff;
