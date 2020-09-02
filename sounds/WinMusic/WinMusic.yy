@@ -1,8 +1,8 @@
 {
-    "id": "6607fa12-7ed5-4d94-b1c7-a513b9b1f87b",
+    "id": "e3a68ade-8a4f-4045-985b-dc94e9bb8ca5",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "_107789__leviclaassen__hit_002",
+    "name": "WinMusic",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

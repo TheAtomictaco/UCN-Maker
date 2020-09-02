@@ -1,8 +1,8 @@
 {
-    "id": "f971d02e-dc03-4486-9b95-0c0deca5c5f3",
+    "id": "6607fa12-7ed5-4d94-b1c7-a513b9b1f87b",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "winnight",
+    "name": "NopeSND",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

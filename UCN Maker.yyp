@@ -2386,7 +2386,7 @@
             "Key": "6607fa12-7ed5-4d94-b1c7-a513b9b1f87b",
             "Value": {
                 "id": "b715ea98-10db-49ce-94fc-3c5729a7b7ab",
-                "resourcePath": "sounds\\_107789__leviclaassen__hit_002\\_107789__leviclaassen__hit_002.yy",
+                "resourcePath": "sounds\\NopeSND\\NopeSND.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -4418,7 +4418,7 @@
             "Key": "ca050f98-1fa5-4c93-bae4-a2f646de5960",
             "Value": {
                 "id": "0091b75d-8839-4556-b3bb-4f2d75f78fd4",
-                "resourcePath": "sounds\\newchallenger\\newchallenger.yy",
+                "resourcePath": "sounds\\riftSND\\riftSND.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -4954,7 +4954,7 @@
             "Key": "e3a68ade-8a4f-4045-985b-dc94e9bb8ca5",
             "Value": {
                 "id": "381ca132-4c5b-4529-94f0-bb6c41e36127",
-                "resourcePath": "sounds\\_60sec_C\\_60sec_C.yy",
+                "resourcePath": "sounds\\WinMusic\\WinMusic.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -5378,7 +5378,7 @@
             "Key": "f971d02e-dc03-4486-9b95-0c0deca5c5f3",
             "Value": {
                 "id": "929a4ec3-8824-453c-8ba5-0dd3a333271f",
-                "resourcePath": "sounds\\winnight\\winnight.yy",
+                "resourcePath": "sounds\\clockSND\\clockSND.yy",
                 "resourceType": "GMSound"
             }
         },

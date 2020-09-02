@@ -17,10 +17,10 @@ noise_sc()
 if(ControllerOB.time == 6)
 {
 	audio_stop_sound(global.randommusic)
-			var l33A4CEE7_0 = winnight;
+			var l33A4CEE7_0 = clockSND;
 			if (!audio_is_playing(l33A4CEE7_0))
 			{
-				audio_play_sound(winnight,0,0)
+				audio_play_sound(clockSND,0,0)
 			}
 
 		ControllerOB.vent = 1;
