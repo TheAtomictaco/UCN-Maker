@@ -19,7 +19,7 @@ else { //if current character is more than the amount in the current message
             message_draw = ""; //clear the drawn text
 			if string_pos("Brain", message[message_current]) != 0
 			{
-				audio_play_sound(Pop_Sharp_Quick_Small_Comical,1,0)
+				audio_play_sound(PopSND,1,0)
 			}
 
 		}

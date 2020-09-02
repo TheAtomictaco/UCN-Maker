@@ -2,7 +2,7 @@
     "id": "07323843-e7ee-453e-b652-ef56345e8d2b",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "putdown",
+    "name": "putdownSND",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

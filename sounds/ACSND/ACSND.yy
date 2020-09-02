@@ -1,8 +1,8 @@
 {
-    "id": "cf049c01-a916-4aa5-a550-cfd24b7457e4",
+    "id": "6ebdee9c-70e7-4c35-a09d-2e2c33d810e6",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "maskoff",
+    "name": "ACSND",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

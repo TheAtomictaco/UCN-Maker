@@ -2,7 +2,7 @@
     "id": "24d7ad1d-eb07-4125-86a7-6f9099b55ea4",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "Pop_Sharp_Quick_Small_Comical",
+    "name": "PopSND",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

@@ -6,13 +6,13 @@
 	{
 		script_execute(SubtractDrainAsess);
 		script_execute(SubtractnoiseAsess);
-		if(ControllerOB.fan == 0)
+		if(ControllerOB.fanSND == 0)
 		{
 			global.drainpower += 1;
 
 		}
 		ControllerOB.tool = 3;
-		ControllerOB.fan = 0;
+		ControllerOB.fanSND = 0;
 	}
 
 	if(!(ControllerOB.powerBat <= 0))

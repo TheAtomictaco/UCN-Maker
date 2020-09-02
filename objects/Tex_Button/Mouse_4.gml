@@ -1,4 +1,4 @@
-audio_play_sound(nosepush, 0, 0);
+audio_play_sound(nosepushSND, 0, 0);
 
 if(global.new_tex == "old")
 {

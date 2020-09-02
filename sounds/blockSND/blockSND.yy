@@ -1,8 +1,8 @@
 {
-    "id": "3bbe4ef5-ba95-4726-8312-ac23f7cc021f",
+    "id": "e6ed4866-ccc4-4133-8f40-6c98ee545d46",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "fan",
+    "name": "blockSND",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

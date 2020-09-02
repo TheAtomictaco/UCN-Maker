@@ -30,7 +30,7 @@ if ControllerOB.monitor = 1
 	global.drainpower += 1;
 }
 
-if ControllerOB.fan = 1
+if ControllerOB.fanSND = 1
 {
 	global.drainpower += 1;
 }

@@ -16,5 +16,5 @@ if(ControllerOB.mask == 0)
 	/// @DnDParent : 4622AB33
 	/// @DnDArgument : "objind" "MaskoffOB"
 	/// @DnDSaveInfo : "objind" "c4fec79c-a178-405c-b0c3-b834f817ea80"
-	instance_change(MaskoffOB, true);
+	instance_change(maskoffSNDOB, true);
 }

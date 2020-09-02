@@ -35,7 +35,7 @@ if(ControllerOB.powerBat > 0)
 			draw_sprite(flashlight, 0, 500, 720);
 			
 			virtual_key_add(720, 720, 190, 190, ord(" "));
-			draw_sprite(fan353, 0, 720, 720);
+			draw_sprite(fanSND353, 0, 720, 720);
 
 			virtual_key_add(1600, 720, 190, 190, ord("D"));
 			draw_sprite(Leftdoor_arrow, 0, 1600, 720);

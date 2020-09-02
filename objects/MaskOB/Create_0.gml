@@ -12,7 +12,7 @@ image_yscale = 4.2;
 /// @DnDArgument : "soundid" "maskon"
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "soundid" "1e3452d9-3e27-433b-8a90-ca4fe46cb057"
-var l782859B3_0 = maskon;
+var l782859B3_0 = maskonSND;
 if (!audio_is_playing(l782859B3_0))
 {
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -21,5 +21,5 @@ if (!audio_is_playing(l782859B3_0))
 	/// @DnDParent : 782859B3
 	/// @DnDArgument : "soundid" "maskon"
 	/// @DnDSaveInfo : "soundid" "1e3452d9-3e27-433b-8a90-ca4fe46cb057"
-	audio_play_sound(maskon, 0, 0);
+	audio_play_sound(maskonSND, 0, 0);
 }

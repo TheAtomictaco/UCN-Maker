@@ -1,4 +1,4 @@
-if(!(ControllerOB.fan == 1))
+if(!(ControllerOB.fanSND == 1))
 {
 	if(!(ControllerOB.tool == 4))
 	{
@@ -30,7 +30,7 @@ if(!(global.temp <= 60))
 
 	}
 
-	if(ControllerOB.fan == 1)
+	if(ControllerOB.fanSND == 1)
 	{
 		global.temp += -1;
 

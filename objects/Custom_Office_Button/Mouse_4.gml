@@ -1,4 +1,4 @@
-audio_play_sound(nosepush, 0, 0);
+audio_play_sound(nosepushSND, 0, 0);
 
 if(global.office_use == 0)
 {

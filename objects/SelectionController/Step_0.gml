@@ -73,14 +73,14 @@ if(global.menu == "default")
 		l7D376AAD_0 = instance_exists(Preset_1);
 		if(!l7D376AAD_0)
 		{
-			instance_create_layer(1776, 160, "Instances", Preset_1);
+			instance_create_layer(1776, 240, "Instances", Preset_1);
 		}
 
 		var l7D376AAD_0 = false;
 		l7D376AAD_0 = instance_exists(Preset_0);
 		if(!l7D376AAD_0)
 		{
-			instance_create_layer(1776, 240, "Instances", Preset_0);
+			instance_create_layer(1776, 160, "Instances", Preset_0);
 		}
 
 		var l1A73FDAC_0 = false;

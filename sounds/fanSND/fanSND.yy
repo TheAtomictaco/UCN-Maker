@@ -1,8 +1,8 @@
 {
-    "id": "6f75f2eb-eaa6-4915-bd50-473c72a3762a",
+    "id": "3bbe4ef5-ba95-4726-8312-ac23f7cc021f",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "nosepush",
+    "name": "fanSND",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

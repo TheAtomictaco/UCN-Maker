@@ -3,7 +3,7 @@
 /// @DnDHash : 209BC203
 /// @DnDArgument : "var" "global.fan"
 /// @DnDArgument : "value" "1"
-if(ControllerOB.fan == 1)
+if(ControllerOB.fanSND == 1)
 {
 	/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
 	/// @DnDVersion : 1
@@ -12,7 +12,7 @@ if(ControllerOB.fan == 1)
 	/// @DnDArgument : "soundid" "fan"
 	/// @DnDArgument : "not" "1"
 	/// @DnDSaveInfo : "soundid" "3bbe4ef5-ba95-4726-8312-ac23f7cc021f"
-	var l27AB6B44_0 = fan;
+	var l27AB6B44_0 = fanSND;
 	if (!audio_is_playing(l27AB6B44_0))
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -22,7 +22,7 @@ if(ControllerOB.fan == 1)
 		/// @DnDArgument : "soundid" "fan"
 		/// @DnDArgument : "loop" "1"
 		/// @DnDSaveInfo : "soundid" "3bbe4ef5-ba95-4726-8312-ac23f7cc021f"
-		audio_play_sound(fan, 0, 1);
+		audio_play_sound(fanSND, 0, 1);
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
@@ -36,7 +36,7 @@ if(ControllerOB.fan == 1)
 /// @DnDVersion : 1
 /// @DnDHash : 709D926F
 /// @DnDArgument : "var" "global.fan"
-if(ControllerOB.fan == 0)
+if(ControllerOB.fanSND == 0)
 {
 	/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
 	/// @DnDVersion : 1
@@ -44,7 +44,7 @@ if(ControllerOB.fan == 0)
 	/// @DnDParent : 709D926F
 	/// @DnDArgument : "soundid" "fan"
 	/// @DnDSaveInfo : "soundid" "3bbe4ef5-ba95-4726-8312-ac23f7cc021f"
-	var l50F1F320_0 = fan;
+	var l50F1F320_0 = fanSND;
 	if (audio_is_playing(l50F1F320_0))
 	{
 		/// @DnDAction : YoYo Games.Audio.Stop_Audio
@@ -53,7 +53,7 @@ if(ControllerOB.fan == 0)
 		/// @DnDParent : 50F1F320
 		/// @DnDArgument : "soundid" "fan"
 		/// @DnDSaveInfo : "soundid" "3bbe4ef5-ba95-4726-8312-ac23f7cc021f"
-		audio_stop_sound(fan);
+		audio_stop_sound(fanSND);
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed

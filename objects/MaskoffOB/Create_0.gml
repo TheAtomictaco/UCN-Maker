@@ -26,7 +26,7 @@ image_speed = 2;
 /// @DnDArgument : "soundid" "maskoff"
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "soundid" "cf049c01-a916-4aa5-a550-cfd24b7457e4"
-var l610C39D3_0 = maskoff;
+var l610C39D3_0 = maskoffSND;
 if (!audio_is_playing(l610C39D3_0))
 {
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -35,5 +35,5 @@ if (!audio_is_playing(l610C39D3_0))
 	/// @DnDParent : 610C39D3
 	/// @DnDArgument : "soundid" "maskoff"
 	/// @DnDSaveInfo : "soundid" "cf049c01-a916-4aa5-a550-cfd24b7457e4"
-	audio_play_sound(maskoff, 0, 0);
+	audio_play_sound(maskoffSND, 0, 0);
 }
