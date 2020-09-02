@@ -3,9 +3,7 @@
     "modelName": "GMProject",
     "mvc": "1.0",
     "IsDnDProject": false,
-    "configs": [
-        
-    ],
+    "configs": [],
     "option_ecma": false,
     "parentProject": {
         "id": "d05efebe-2ee4-4080-b555-67b6aadb5d8c",
@@ -24,9 +22,7 @@
                 }
             }
         ],
-        "hiddenResources": [
-            
-        ],
+        "hiddenResources": [],
         "projectPath": "${base_project}"
     },
     "resources": [
@@ -1035,14 +1031,6 @@
             "Value": {
                 "id": "6740edf5-9729-47a7-978e-2bc3cc08b5e3",
                 "resourcePath": "objects\\TitleControlOB\\TitleControlOB.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "2e99bf9e-f892-47ae-af7d-3ae7a7aae9f6",
-            "Value": {
-                "id": "4a5a72f6-e34b-4cf5-a580-c27086dd0bbd",
-                "resourcePath": "objects\\obj_demo\\obj_demo.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -4023,6 +4011,14 @@
             }
         },
         {
+            "Key": "b57c6385-c63f-4277-b87b-e5597c901c62",
+            "Value": {
+                "id": "e5392812-c9f9-4d5c-ad41-c0c4089f5116",
+                "resourcePath": "scripts\\scr_show_json\\scr_show_json.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b5bd7e19-b175-416f-b676-d05428d93d11",
             "Value": {
                 "id": "7db03d26-3152-452a-a801-44f3df636eff",
@@ -4051,6 +4047,14 @@
             "Value": {
                 "id": "f35c7c2d-2563-498f-ac25-3246c3652221",
                 "resourcePath": "scripts\\scr_tests\\scr_tests.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b6848a60-30e4-437e-9cae-8a1b706aedad",
+            "Value": {
+                "id": "5f374789-85ba-4ecf-bf30-5036701df6cb",
+                "resourcePath": "scripts\\json_beautify\\json_beautify.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -5541,6 +5545,14 @@
                 "resourcePath": "objects\\BarOb\\BarOb.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "2e99bf9e-f892-47ae-af7d-3ae7a7aae9f6",
+            "Value": {
+                "id": "4a5a72f6-e34b-4cf5-a580-c27086dd0bbd",
+                "resourcePath": "objects\\obj_demo\\obj_demo.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
@@ -5676,6 +5688,8 @@
         "97b768ed-f50f-9e25-70a2-e36b6096709a",
         "08c50f8f-6efb-490f-ad09-24f7e6b6460e",
         "48f86cfc-2b71-4710-ae1c-c6929e2a658d",
+        "b57c6385-c63f-4277-b87b-e5597c901c62",
+        "b6848a60-30e4-437e-9cae-8a1b706aedad",
         "ca9a0357-1e97-4507-9dfc-3053e6f129e2",
         "0f1cd0e4-5252-402c-8e2a-acc6eb0f6e84"
     ],
